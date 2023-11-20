@@ -1,0 +1,21 @@
+/*Asterisk wildcard selector to create a consistent starting point across different browsers and remove white edges on the sides and the top of the page*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #FF8200;
+}
+
+/*Main content */
+main {
+    background-color: #ffffff;
+}
+
+/*Footer */
+footer {
+    background-color: #009A44;
+}
