@@ -1,3 +1,6 @@
+/* Import Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Architects+Daughter&family=Duru+Sans&display=swap');
+
 /* Asterisk wildcard selector to create a consistent starting point across different browsers and remove white edges on the sides and the top of the page */
 *{
     padding: 0;
