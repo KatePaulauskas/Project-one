@@ -20,6 +20,16 @@ header {
     background-color: #FF8200;
 }
 
+/* H1 style */
+h1 {
+    font-family: 'Antic Slab', sans-serif;
+}
+
+/* Logo style */
+#logo {
+    font-family: 'Architects Daughter', sans-serif;
+}
+
 /*Main content */
 main {
     background-color: #000000;
