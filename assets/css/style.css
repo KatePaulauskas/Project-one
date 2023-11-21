@@ -34,6 +34,23 @@ h1 {
     font-family: 'Antic Slab', sans-serif;
 }
 
+/* Menu style */
+#menu {
+    list-style-type: none;
+    font-size: 120%;
+    letter-spacing: 1px;
+}
+
+#menu > li {
+    margin-bottom: 0.5em;
+}
+
+.current {
+    color: #232323;
+    font-weight: bold;
+    border-bottom: 2px solid #232323;
+}
+
 /* Logo style */
 #logo {
     font-family: 'Architects Daughter', sans-serif;
