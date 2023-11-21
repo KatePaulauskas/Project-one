@@ -28,6 +28,7 @@ h1 {
 /* Logo style */
 #logo {
     font-family: 'Architects Daughter', sans-serif;
+    text-transform: uppercase;
 }
 
 /*Main content */
