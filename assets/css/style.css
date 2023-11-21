@@ -51,6 +51,10 @@ h1 {
     border-bottom: 2px solid #232323;
 }
 
+#menu-label {
+    cursor: pointer;
+}
+
 /* Logo style */
 #logo {
     font-family: 'Architects Daughter', sans-serif;
