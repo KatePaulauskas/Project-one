@@ -51,8 +51,20 @@ h1 {
     border-bottom: 2px solid #232323;
 }
 
-#menu-label {
-    cursor: pointer;
+/* Hide the checkbox */
+
+#menu-toggle {
+    display: none;
+}
+
+/* Hide menu initially */
+#menu {
+    display: none;
+}
+
+/* Show the menu when the checkbox is checked */
+#menu-toggle:checked ~ nav #menu {
+    display: block;
 }
 
 /* Logo style */
