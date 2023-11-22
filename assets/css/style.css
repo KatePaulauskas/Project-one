@@ -150,6 +150,13 @@ footer {
         gap: 20px;
     }
 
+    /* Add vertical dividers between menu items */
+    #menu li:not(:last-child)::after {
+        content: "|";
+        margin-left: 20px;
+        color: #323232;
+    }
+
     #menu-label {
         display: none;
     }
@@ -159,7 +166,6 @@ footer {
         padding-left: 4px;   
     }
 
-    /* Remove the order property */
     #logo-link {
         display: flex;
         align-items: center;
