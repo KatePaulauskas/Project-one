@@ -128,7 +128,7 @@ footer {
 
 .social-icons {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .social-icons a {
