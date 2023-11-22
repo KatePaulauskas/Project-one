@@ -22,6 +22,10 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+
 }
 
 header a {
@@ -67,6 +71,13 @@ h1 {
     display: block;
 }
 
+/* Logo link styling */
+#logo-link {
+    flex-grow: 1;
+    order: -1;
+}
+
+
 /* Logo style */
 #logo {
     font-family: 'Architects Daughter', sans-serif;
@@ -74,6 +85,7 @@ h1 {
     color: #000000;
     letter-spacing: 2px;
     padding-top: 5px;
+    font-size: 25px;
 }
 
 /*Main content */
