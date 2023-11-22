@@ -163,11 +163,17 @@ footer {
 
     #logo {
         width: auto;
-        padding-left: 4px;   
+        padding-left: 4px;
+        font-size: 250%;  
     }
 
     #logo-link {
         display: flex;
         align-items: center;
+    }
+    /* Main content */
+    main {
+        /* Push main content down to adjust to the new header height */
+        margin-top: 75.4px;
     }
 }
