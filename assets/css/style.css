@@ -25,6 +25,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: top;
+    padding-right: 0px;
 
 }
 
@@ -77,6 +78,13 @@ h1 {
     order: -1;
 }
 
+/* Menu icon styling */
+#menu-label {
+    font-size: 27px;
+    align-self: flex-start;
+    padding-top: 3px;
+    padding-right: 7px;
+}
 
 /* Logo style */
 #logo {
