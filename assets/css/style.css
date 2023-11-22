@@ -93,7 +93,7 @@ h1 {
 
 /* Menu icon styling */
 #menu-label {
-    font-size: 27px;
+    font-size: 45px;
     align-self: flex-start;
     padding-top: 3px;
     padding-right: 7px;
@@ -116,6 +116,8 @@ main {
     color: #ffffff;
     /* Make the main element to take up any excess space and push footer to the bottom */
     flex: 1 0 auto;
+    /* Push main content down to adjust to the new header height */
+    margin-top: 75.4px;
 }
 
 /*Footer */
@@ -171,9 +173,12 @@ footer {
         display: flex;
         align-items: center;
     }
-    /* Main content */
-    main {
-        /* Push main content down to adjust to the new header height */
-        margin-top: 75.4px;
+   
+}
+
+/* Larger devices (laptops & desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 0.5px solid #323232;
     }
 }
