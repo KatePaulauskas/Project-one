@@ -38,6 +38,12 @@ header a {
 
 /* H1 style */
 h1 {
+    font-family: 'Architects Daughter', sans-serif;
+}
+
+/* H2 style */
+
+h2 {
     font-family: 'Antic Slab', sans-serif;
 }
 
@@ -113,12 +119,26 @@ h1 {
 
 /*Main content */
 main {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #232323;
     /* Make the main element to take up any excess space and push footer to the bottom */
     flex: 1 0 auto;
     /* Push main content down to adjust to the new header height */
     margin-top: 75.4px;
+}
+
+#home-page-h1 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+
+#home-page-tagline {
+   
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 12px;
 }
 
 /*Footer */
