@@ -19,7 +19,7 @@ body {
 /* Header */
 header {
     background-color: #FF8200;
-    padding: 0 1rem;
+    padding: 0 0;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -107,6 +107,7 @@ h2 {
 }
 
 /* Logo style */
+/* Logo text was replaced by logo image */
 #logo {
     font-family: 'Architects Daughter', sans-serif;
     text-transform: uppercase;
@@ -127,6 +128,16 @@ main {
     margin-top: 75.4px;
 }
 
+/* Hero section container style */
+#hero-section {
+    position: relative;
+}
+
+/* Text overlay styles */
+.hero-text {
+    position: absolute;
+}
+
 #home-page-h1 {
     font-size: 25px;
     text-transform: uppercase;
@@ -136,7 +147,7 @@ main {
 }
 
 #home-page-tagline {
-    font-size: 20px;   
+    font-size: 20px;
     text-align: center;
     letter-spacing: 1px;
     padding-top: 12px;
@@ -144,11 +155,6 @@ main {
 
 #hero-image {
     max-width: 100%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right:auto;
-    overflow: hidden;
 }
 
 /*Footer */
