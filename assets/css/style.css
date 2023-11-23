@@ -142,6 +142,15 @@ main {
     padding-top: 12px;
 }
 
+#hero-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    overflow: hidden;
+}
+
 /*Footer */
 footer {
     background-color: #009A44;
