@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Architects+Daughter&family=Duru+Sans&display=swap');
 
 /* Asterisk wildcard selector to create a consistent starting point across different browsers and remove white edges on the sides and the top of the page */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     font-family: 'Duru Sans', sans-serif;
 }
+
 /* Header */
 header {
     background-color: #FF8200;
@@ -47,7 +48,7 @@ h1 {
     letter-spacing: 1px;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 0.5em;
     text-align: center;
 }
@@ -72,12 +73,12 @@ h1 {
     z-index: 100;
     background-color: #FF8200;
     width: 100%;
-    top:75.4px;
-    
+    top: 75.4px;
+
 }
 
 /* Show the menu when the checkbox is checked */
-#menu-toggle:checked ~ nav #menu {
+#menu-toggle:checked~nav #menu {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,7 +108,7 @@ h1 {
     letter-spacing: 2px;
     padding-top: 5px;
     font-size: 25px;
-    width:70px;
+    width: 70px;
 }
 
 /*Main content */
@@ -178,14 +179,14 @@ footer {
     #logo {
         width: auto;
         padding-left: 4px;
-        font-size: 180%;  
+        font-size: 180%;
     }
 
     #logo-link {
         display: flex;
         align-items: center;
     }
-   
+
 }
 
 /* Larger devices (laptops & desktops, 992px and up) */
