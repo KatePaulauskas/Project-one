@@ -148,6 +148,7 @@ main {
 
 #home-page-tagline {
     font-size: 20px;
+    font-size: 20px;
     text-align: center;
     letter-spacing: 1px;
     padding-top: 12px;
@@ -155,6 +156,11 @@ main {
 
 #hero-image {
     max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
 }
 
 /*Footer */
@@ -227,11 +233,21 @@ footer {
 
     #home-page-h1 {
         font-size: 37px;
+        text-align: center;
     }
 
     #home-page-tagline {
         font-size: 33px;
+        text-align: center;
     }
+}
+
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 /* Larger devices (laptops & desktops, 992px and up) */
