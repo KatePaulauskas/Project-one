@@ -36,17 +36,6 @@ header a {
     color: #323232;
 }
 
-/* H1 style */
-h1 {
-    font-family: 'Architects Daughter', sans-serif;
-}
-
-/* H2 style */
-
-h2 {
-    font-family: 'Antic Slab', sans-serif;
-}
-
 /* Menu style */
 #menu {
     list-style-type: none;
@@ -126,10 +115,30 @@ main {
     flex: 1 0 auto;
     /* Push main content down to adjust to the new header height */
     margin-top: 75.4px;
+    padding: 0 0 20px 0;
 }
 
-/* Hero section container style */
-#hero-section {
+/* H1 style */
+h1 {
+    font-family: 'Architects Daughter', sans-serif;
+}
+
+/* H2,3,4,5,6 style */
+h2, h3, h4 {
+    font-family: 'Antic Slab', sans-serif;
+    text-align: center;
+    font-size: 120%;
+    padding: 10px 10px;
+}
+
+/* Paragraph style */
+p {
+    text-align: center;
+    padding: 10px 15px;
+}
+
+/* Hero section and River Lee section styles */
+#hero-section, #river-lee-section {
     position: relative;
 }
 
@@ -142,20 +151,47 @@ main {
 #home-page-h1 {
     font-size: 25px;
     text-transform: uppercase;
-    text-align: center;
     letter-spacing: 2px;
     padding-top: 10px;
 }
 
 #home-page-tagline {
     font-size: 20px;
-    text-align: center;
     letter-spacing: 1px;
     padding-top: 12px;
 }
 
-#hero-image {
+/* Home page images style */
+#hero-image, #river-lee-image {
     max-width: 100%;
+}
+
+/* Welcome section style*/
+
+#welcome-message, #quote1, #our-promise {
+    background-color: #ffffff;
+}
+
+/* Quote section style */
+#quote1 {
+    font-style: italic;
+}
+
+#quote1 > p {
+text-align: center;
+padding: 0 10px;
+}
+
+#quote1 .quote-author {
+    text-align: right;
+    font-weight: bold;
+    padding: 0 20px 20px 0;
+}
+
+/* Services & Why choose us styles */
+#services, #why-choose-us {
+    list-style-type: circle;
+    padding: 10px 10px 10px 20px;
 }
 
 /*Footer */
