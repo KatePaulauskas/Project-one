@@ -166,12 +166,6 @@ p {
     max-width: 100%;
 }
 
-/* Welcome section style*/
-
-#welcome-message, #quote1, #our-promise {
-    background-color: #ffffff;
-}
-
 /* Quote section style */
 #quote1 {
     font-style: italic;
