@@ -138,8 +138,23 @@ p {
 }
 
 /* Hero section and River Lee section styles */
+#hero-section {
+    height: 700px;
+    width: 100%;
+    background: url(../images/sheeps-head-vertical.webp) no-repeat center bottom/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 #hero-section, #river-lee-section {
     position: relative;
+}
+
+#river-lee-image {
+    max-width: 100%;
 }
 
 /* Text overlay styles */
@@ -159,11 +174,6 @@ p {
     font-size: 20px;
     letter-spacing: 1px;
     padding-top: 12px;
-}
-
-/* Home page images style */
-#hero-image, #river-lee-image {
-    max-width: 100%;
 }
 
 /* Quote section style */
@@ -203,6 +213,13 @@ footer {
     font-size: 200%;
     margin: 0 25px;
     color: #ffffff;
+}
+
+/* Media query: mobile phones (440px and up) */
+@media screen and (min-width: 440px) {
+#hero-section {
+    height: 1000px;
+}
 }
 
 /* Media query: tablets and larger screens (768px and up) */
@@ -265,14 +282,22 @@ footer {
         font-size: 33px;
         text-align: center;
     }
-}
+
+    /* Hero Section */
 
 #hero-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    position: relative;
+    height: 700px;
+    max-width: 100%;
+    background: url(../images/sheeps-head-horizontal.webp) no-repeat center center/cover;
+}
+.hero-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    padding-left: 20px;
+}
 }
 
 /* Larger devices (laptops & desktops, 992px and up) */
