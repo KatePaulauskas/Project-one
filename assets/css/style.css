@@ -16,6 +16,21 @@ body {
     font-family: 'Duru Sans', sans-serif;
 }
 
+/* H1 style */
+h1 {
+    font-family: 'Architects Daughter', sans-serif;
+}
+
+/* H2,3,4,5,6 style */
+h2,
+h3,
+h4 {
+    font-family: 'Antic Slab', sans-serif;
+    text-align: center;
+    font-size: 120%;
+    padding: 10px 10px;
+}
+
 /* Header */
 header {
     background-color: #FF8200;
@@ -118,19 +133,6 @@ main {
     padding: 0 0 20px 0;
 }
 
-/* H1 style */
-h1 {
-    font-family: 'Architects Daughter', sans-serif;
-}
-
-/* H2,3,4,5,6 style */
-h2, h3, h4 {
-    font-family: 'Antic Slab', sans-serif;
-    text-align: center;
-    font-size: 120%;
-    padding: 10px 10px;
-}
-
 /* Paragraph style */
 p {
     text-align: center;
@@ -142,11 +144,10 @@ p {
     height: 700px;
     width: 100%;
     background: url(../images/sheeps-head-vertical.webp) no-repeat center bottom/cover;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
 }
 
 #hero-section, #river-lee-section {
@@ -168,6 +169,7 @@ p {
     text-transform: uppercase;
     letter-spacing: 2px;
     padding-top: 10px;
+    text-align: center;
 }
 
 #home-page-tagline {
@@ -271,48 +273,57 @@ footer {
         align-items: center;
     }
 
-    /* Main */
+    /* Hero section */
 
-    #home-page-h1 {
-        font-size: 37px;
-        text-align: center;
+    #hero-section {
+        position: relative;
+        height: 370px;
+        max-width: 100%;
+        background: url(../images/sheeps-head-horizontal.webp) no-repeat center right/cover;
+        align-items: left;
+    }
+    .hero-text {
+        top: 250px;
+        text-align: left;
+        left: 10px;
+        color: #ffffff;
     }
 
-    #home-page-tagline {
-        font-size: 33px;
-        text-align: center;
+    #home-page-h1, #home-page-tagline {
+        text-align: left;
+        font-size: 170%;
     }
 
-    /* Hero Section */
+    }
 
-#hero-section {
-    position: relative;
-    height: 700px;
-    max-width: 100%;
-    background: url(../images/sheeps-head-horizontal.webp) no-repeat center center/cover;
-}
-.hero-text {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    text-align: left;
-    padding-left: 20px;
-}
-}
-
-/* Larger devices (laptops & desktops, 992px and up) */
+/* * Media query: larger devices (laptops & desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 0.5px solid #323232;
     }
 
-        /* Main */
-
-    #home-page-h1 {
-        font-size: 45px;
+    /* Hero section */
+    #hero-section {
+        height: 550px;
+    }
+    .hero-text {
+        top: 400px;
     }
 
+    #home-page-h1,
     #home-page-tagline {
-        font-size: 40px;
+        font-size: 250%;
+    }
+}
+
+/* * Media query: larger screens (1400px and up) */
+@media screen and (min-width: 1400px) {
+    /* Hero section */
+    #hero-section {
+        height: 700px;
+    }
+    
+    .hero-text {
+        top: 480px;
     }
 }
