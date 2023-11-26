@@ -279,7 +279,7 @@ footer {
         position: relative;
         height: 370px;
         max-width: 100%;
-        background: url(../images/sheeps-head-horizontal.webp) no-repeat center right/cover;
+        background: url(../images/sheeps-head-pano.webp) no-repeat center right/cover;
         align-items: left;
     }
     .hero-text {
@@ -294,7 +294,31 @@ footer {
         font-size: 170%;
     }
 
+    /* Welcome section*/
+    .welcome-part-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 30px;
     }
+
+    #services,
+    #our-promise,
+    #why-choose-us {
+        flex: 1;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    #our-promise > p {
+        text-align: justify
+    }
+
+    .welcome-part-2 > div {
+        margin-right: 30px;
+    }
+
+}
 
 /* * Media query: larger devices (laptops & desktops, 992px and up) */
 @media screen and (min-width: 992px) {
