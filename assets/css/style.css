@@ -19,6 +19,8 @@ body {
 /* H1 style */
 h1 {
     font-family: 'Architects Daughter', sans-serif;
+    text-align: center;
+    font-size: 150%;
 }
 
 /* H2,3,4,5,6 style */
@@ -202,10 +204,13 @@ padding: 0 10px;
     padding: 10px 10px 10px 20px;
 }
 
-/* Gallery */
-
+/* Projects page*/
+.photo-item {
+    padding-bottom: 20px;
+}
 .photo-item img {
     width: 100%;
+    padding: 20px 5px 0;
 }
 
 /*Footer */
@@ -332,6 +337,12 @@ footer {
         margin-right: 30px;
     }
 
+    /* Projects page*/
+    .photo-gallery {
+        column-count: 2;
+    }
+
+
 }
 
 /* * Media query: larger devices (laptops & desktops, 992px and up) */
@@ -352,6 +363,11 @@ footer {
     #home-page-tagline {
         font-size: 250%;
     }
+
+    /* Gallery */
+    .photo-gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 /* * Media query: larger screens (1400px and up) */
@@ -363,5 +379,9 @@ footer {
     
     .hero-text {
         top: 480px;
+    }
+    /* Projects page*/
+    .photo-gallery {
+    column-count: 3;
     }
 }
