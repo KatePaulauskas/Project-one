@@ -23,7 +23,7 @@ h1 {
     font-size: 150%;
 }
 
-/* H2,3,4,5,6 style */
+/* H2,3,4 style */
 h2,
 h3,
 h4 {
@@ -33,6 +33,12 @@ h4 {
     padding: 10px 10px;
 }
 
+/* Paragraph style */
+p {
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 100%;
+}
 /* Header */
 header {
     background-color: #FF8200;
@@ -135,12 +141,6 @@ main {
     padding: 0 0 20px 0;
 }
 
-/* Paragraph style */
-p {
-    text-align: center;
-    padding: 10px 15px;
-}
-
 /* Hero section style */
 #hero-section {
     height: 700px;
@@ -202,15 +202,22 @@ padding: 0 10px;
 #services, #why-choose-us {
     list-style-type: circle;
     padding: 10px 10px 10px 20px;
+    font-family: 100%;
 }
 
 /* Projects page*/
+.photo-gallery {
+    margin: 20px;
+}
 .photo-item {
-    padding-bottom: 20px;
+    border: 1px solid #323232;
+    margin: 0 0 20px;
 }
 .photo-item img {
     width: 100%;
-    padding: 20px 5px 0;
+    height: auto;
+    object-fit: cover;
+    padding: 10px 10px 0;
 }
 
 /*Footer */
@@ -232,13 +239,29 @@ footer {
 
 /* Media query: mobile phones (440px and up) */
 @media screen and (min-width: 440px) {
-#hero-section {
-    height: 1000px;
-}
+    #hero-section {
+        height: 1000px;
+    }
 }
 
 /* Media query: tablets and larger screens (768px and up) */
 @media screen and (min-width: 768px) {
+    /* Fonts size */
+
+        h1 {
+            font-size: 160%;
+        }
+    
+        h2,
+        h3,
+        h4 {
+            font-size: 130%;
+        }
+    
+        p, ul {
+            font-size: 100%;
+        }
+
 
     /* Header */
     header {
@@ -336,17 +359,25 @@ footer {
     .welcome-second-part > div {
         margin-right: 30px;
     }
-
-    /* Projects page*/
-    .photo-gallery {
-        column-count: 2;
-    }
-
-
 }
 
 /* * Media query: larger devices (laptops & desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+        /* Fonts size */
+
+        h1 {
+            font-size: 170%;
+        }
+    
+        h2,
+        h3,
+        h4 {
+            font-size: 140%;
+        }
+    
+        p, ul {
+            font-size: 110%;
+        }
     #menu a:hover {
         border-bottom: 0.5px solid #323232;
     }
@@ -363,10 +394,12 @@ footer {
     #home-page-tagline {
         font-size: 250%;
     }
-
-    /* Gallery */
+    /* Projects page*/
     .photo-gallery {
-        grid-template-columns: repeat(3, 1fr);
+    column-count: 2;
+    }
+    .photo-item img {
+    height: 380px;
     }
 }
 
@@ -376,12 +409,11 @@ footer {
     #hero-section {
         height: 700px;
     }
-    
     .hero-text {
         top: 480px;
     }
     /* Projects page*/
-    .photo-gallery {
-    column-count: 3;
+    .photo-item img {
+    height: 600px;
     }
 }
