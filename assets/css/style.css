@@ -35,8 +35,8 @@ h4 {
 
 /* Paragraph style */
 p {
-    text-align: center;
-    padding: 10px 15px;
+    text-align: justify;
+    padding: 10px 20px;
     font-size: 100%;
 }
 /* Header */
@@ -339,15 +339,13 @@ footer {
     /* Welcome section part 2*/
     .welcome-second-part {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-left: 30px;
+        flex-wrap: wrap;
+
     }
 
     #services,
     #our-promise,
     #why-choose-us {
-        flex: 1;
         padding: 10px;
         text-align: justify;
     }
@@ -358,6 +356,8 @@ footer {
 
     .welcome-second-part > div {
         margin-right: 30px;
+        flex-basis: 350px;
+        flex-grow: 1;
     }
 }
 
