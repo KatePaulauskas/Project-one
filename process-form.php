@@ -1,8 +1,12 @@
-<html>
-<body>
+<?php
+session_start();
 
-Thnk you for your submissin <?php echo $_POST["name"]; ?><br>
-Your email address is: <?php echo $_POST["email-address"]; ?>
+// Collect form data
+$_SESSION['name'] = $_POST['name'];
+$_SESSION['email'] = $_POST['email-address'];
+$_SESSION['message'] = $_POST['add-your-message'];
 
-</body>
-</html>
+// Redirect to the results page
+header('Location: display-results.php');
+exit();
+?>
