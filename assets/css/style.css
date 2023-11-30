@@ -342,7 +342,7 @@ footer {
         gap: 20px;
     }
 
-    /* Add vertical dividers between menu items */
+    /* Add vertical dividers between menu items (source: stack overflow)*/
     #menu li:not(:last-child)::after {
         content: "|";
         margin-left: 20px;
