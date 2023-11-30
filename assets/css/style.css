@@ -180,12 +180,14 @@ main {
     letter-spacing: 2px;
     padding-top: 10px;
     text-align: center;
+    text-shadow: 2px 2px 4px #ffffff;
 }
 
 #home-page-tagline {
     font-size: 20px;
     letter-spacing: 1px;
     padding-top: 12px;
+    text-shadow: 2px 2px 4px #ffffff;
 }
 
 /* Quote section style */
@@ -402,6 +404,7 @@ footer {
         height: 370px;
         max-width: 100%;
         background: url(../images/sheeps-head-pano.webp) no-repeat center right/cover;
+        background-color: #444444;
         align-items: left;
     }
     .hero-text {
@@ -455,8 +458,6 @@ footer {
     .text-input:hover {
         border-color: #009A44;
     }
-
-
 }
 
 /* * Media query: larger devices (laptops & desktops, 992px and up) */
