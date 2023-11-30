@@ -133,7 +133,7 @@ header a {
 
 /*Main content */
 main {
-    background-color: #ffffff;
+    background-color: #FFF7EF;
     color: #232323;
     /* Make the main element to take up any excess space and push footer to the bottom */
     flex: 1 0 auto;
