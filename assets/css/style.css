@@ -259,10 +259,23 @@ padding: 0 10px;
     margin: 5px;
     width: 70%;
     height: 30px;
+    border: #000000 2px solid;
+    padding: 3px;
 }
 
 #add-your-message {
     height: 70px;
+}
+
+/* Style get in touch button */
+.get-in-touch-button {
+    margin-bottom:10px;
+    border-radius: 3px;
+    font-size: 100%;
+    padding: 10px;
+    color: #000000;
+    background-color: #FF8200;
+    font-weight: bold;
 }
 
 /* Style image on the contact page */
@@ -433,6 +446,17 @@ footer {
         flex-basis: 350px;
         flex-grow: 1;
     }
+    /* Style get in touch button on hover */
+    .get-in-touch-button:hover {
+    background-color: #009A44;
+    color: #FFF7EF;
+    }
+    /* Style text input on hover */
+    .text-input:hover {
+        border-color: #009A44;
+    }
+
+
 }
 
 /* * Media query: larger devices (laptops & desktops, 992px and up) */
