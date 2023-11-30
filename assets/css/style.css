@@ -417,6 +417,7 @@ footer {
     #home-page-h1, #home-page-tagline {
         text-align: left;
         font-size: 170%;
+        text-shadow: none;
     }
 
     /* Home second image */
