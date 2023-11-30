@@ -39,6 +39,7 @@ p {
     padding: 10px 20px;
     font-size: 100%;
 }
+
 /* Header */
 header {
     background-color: #FF8200;
@@ -270,7 +271,7 @@ padding: 0 10px;
     background-position: 100%;
     padding: 20px 10% 0 10%;
     height: 300px;
-    /* Remove any margnes that could cause gaps */
+    /* Remove any margines that could cause gaps */
     margin: 0;
 }
 
@@ -402,6 +403,7 @@ footer {
     #why-choose-us {
         padding: 10px;
         text-align: justify;
+        margin: 0 0 0 10px;
     }
 
     #our-promise > p {
