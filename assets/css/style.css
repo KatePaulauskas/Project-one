@@ -138,6 +138,10 @@ main {
     flex: 1 0 auto;
     /* Push main content down to adjust to the new header height */
     margin-top: 75.4px;
+    /*Distribute space, align content and remove gaps between main content and footer  */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
    
 }
 
@@ -266,6 +270,8 @@ padding: 0 10px;
     background-position: 100%;
     padding: 20px 10% 0 10%;
     height: 300px;
+    /* Remove any margnes that could cause gaps */
+    margin: 0;
 }
 
 /*Footer */
