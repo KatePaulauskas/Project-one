@@ -13,6 +13,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     font-family: 'Duru Sans', sans-serif;
 }
 
@@ -273,6 +274,23 @@ padding: 0 10px;
     height: 300px;
     /* Remove any margines that could cause gaps */
     margin: 0;
+}
+
+/* Thank you page */
+/* Style thank you message */
+#thank-you-msg {
+    align-items: center;
+    justify-content: center;
+    margin: 30px 10px;
+    /* Ensure thank you section takes up all the space above the video secion */
+    flex: 1;
+}
+
+/* Style video section, make the video stretch to the full width */
+#video video {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 /*Footer */
