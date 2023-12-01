@@ -30,6 +30,12 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
     ![Navigation Bar on mobile]()
 
 - __Home Page image__
+  - The homepage's above-the-fold image features a stunning scenic view of Sheep's Head Peninsula in Ireland, immediately captivating the attention of site visitors. This high-quality, high-resolution image provides an introduction to the caliber of imagery offered, showcasing the unique perspective that Aerial Photography delivers.
+
+
+  - Overlaying the image is text, including the site's name and tagline, which helps visitors quickly understand the site's purpose.
+  
+  - The site name is displayed in the "Architects Daughter" font, which boasts a handcrafted and distinctive style, embodying creativity and freedom. The tagline, on the other hand, is set in "Antic Slab," a font with a structured and robust appearance, effectively conveying an impactful and engaging message.
 
     ##### Desktop
 
