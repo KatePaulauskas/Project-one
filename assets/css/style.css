@@ -151,7 +151,7 @@ main {
 #hero-section {
     height: 700px;
     width: 100%;
-    background: url(../images/sheeps-head-hotizontal-small.webp) no-repeat center bottom/cover;
+    background: url(../images/sheeps-head-vertical.webp) no-repeat center bottom/cover;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -411,7 +411,7 @@ footer {
         position: relative;
         height: 370px;
         max-width: 100%;
-        background: url(../images/sheeps-head-pano.webp) no-repeat center right/cover;
+        background: url(../images/sheeps-head-hotizontal-small.webp) no-repeat center right/cover;
         background-color: #444444;
         align-items: left;
     }
