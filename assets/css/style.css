@@ -22,6 +22,7 @@ h1 {
     font-family: 'Architects Daughter', sans-serif;
     text-align: center;
     font-size: 150%;
+    padding-top: 25px;
 }
 
 /* H2,3,4 style */
@@ -31,7 +32,7 @@ h4 {
     font-family: 'Antic Slab', sans-serif;
     text-align: center;
     font-size: 120%;
-    padding: 10px 10px;
+    padding: 25px 10px;
 }
 
 /* Paragraph style */
@@ -192,12 +193,16 @@ main {
 
 /* Quote section style */
 #quote1 {
+    margin-top: 30px;
     font-style: italic;
 }
 
 #quote1 > p {
-text-align: center;
-padding: 0 10px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Architects Daughter', sans-serif;
+    font-weight: bold;
+    font-size: 115%;
 }
 
 #quote1 .quote-author {
@@ -238,13 +243,13 @@ padding: 0 10px;
 
 /* Style form box and content */
 #get-in-touch {
-    height: 400px;
+    height: 410px;
     border: 1px solid #323232;
     margin: 20px;
 }
 
 #get-in-touch-form {
-    padding: 10px;
+    padding: 0 10px 10px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -427,6 +432,16 @@ footer {
         font-size: 170%;
         text-shadow: none;
     }
+
+    #intro p {
+        margin: 0 30px;
+    }
+
+    #quote1 .quote-author {
+    text-align: right;
+    font-weight: bold;
+    margin: 0 50px 20px 0;
+}
 
     /* Home second image */
 
