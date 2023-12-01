@@ -264,7 +264,7 @@ main {
 /* Stly input fields */
 .text-input {
     margin: 5px;
-    width: 70%;
+    width: 75%;
     height: 30px;
     border: #000000 2px solid;
     padding: 3px;
@@ -472,6 +472,18 @@ footer {
         flex-basis: 350px;
         flex-grow: 1;
     }
+
+    /* Contact page */
+   /* Reduce width of form frame */
+    #get-in-touch {
+    margin: 20px 40px;
+    }
+
+    /* Reduce width of form input fields */
+    .text-input {
+    width: 50%;
+    }
+
     /* Style get in touch button on hover */
     .get-in-touch-button:hover {
     background-color: #009A44;
@@ -526,7 +538,16 @@ footer {
     height: 380px;
     }
 
-/*Contact page*/
+    /*Contact page*/
+    /* Reduce width of form frame */
+    #get-in-touch {
+    margin: 20px 70px;
+    }
+    /* Reduce width of form input fields */
+    .text-input {
+    width: 35%;
+    }
+    
     #get-in-touch-img {
     height: 520px;
     }
@@ -547,6 +568,11 @@ footer {
     }
 
     /*Contact page*/
+    /* Reduce width of form frame */
+    #get-in-touch {
+    margin: 20px 120px;
+    }
+    
     #get-in-touch-img {
     height: 650px;
     }
