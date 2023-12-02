@@ -295,13 +295,23 @@ main {
 }
 
 /* Thank you page */
+#thank-you-page {
+    /* Ensure position of items at the top */
+    justify-content: flex-start; 
+    /* Prevent vertical scrolling */
+    overflow: hidden; 
+}
+
 /* Style thank you message */
 #thank-you-msg {
+    /* Add flex display */
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin: 30px 10px;
+    /* Center text vertically */
+    margin: auto;
     /* Ensure thank you section takes up all the space above the video secion */
-    flex: 1;
+    flex-grow: 1;
 }
 
 /* Style video section, make the video stretch to the full width */
