@@ -54,7 +54,6 @@ header {
     align-items: top;
     padding-right: 0px;
     height: 75.4px;
-
 }
 
 header a {
@@ -81,7 +80,6 @@ header a {
 }
 
 /* Hide the checkbox */
-
 #menu-toggle {
     display: none;
 }
@@ -95,7 +93,6 @@ header a {
     background-color: #FF8200;
     width: 100%;
     top: 75.4px;
-
 }
 
 /* Show the menu when the checkbox is checked */
@@ -145,7 +142,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-   
 }
 
 /* Hero section style */
@@ -158,6 +154,7 @@ main {
     flex-direction: column;
     align-items: center;
 }
+
 /* Home second image style*/
 #kinsale-image-section {
     height: 500px;
@@ -242,7 +239,6 @@ main {
 }
 
 /* Contact page */
-
 /* Style form box and content */
 #get-in-touch {
     height: 410px;
@@ -348,22 +344,21 @@ footer {
 
 /* Media query: tablets and larger screens (768px and up) */
 @media screen and (min-width: 768px) {
+    
     /* Fonts size */
-
-        h1 {
-            font-size: 160%;
-        }
+    h1 {
+        font-size: 160%;
+    }
     
-        h2,
-        h3,
-        h4 {
-            font-size: 130%;
-        }
+    h2,
+    h3,
+    h4 {
+        font-size: 130%;
+    }
     
-        p, ul {
-            font-size: 100%;
-        }
-
+    p, ul {
+        font-size: 100%;
+    }
 
     /* Header */
     header {
@@ -412,7 +407,6 @@ footer {
     }
 
     /* Hero section */
-
     #hero-section {
         position: relative;
         height: 370px;
@@ -421,6 +415,7 @@ footer {
         background-color: #444444;
         align-items: left;
     }
+
     .hero-text {
         top: 250px;
         text-align: left;
@@ -435,7 +430,7 @@ footer {
         text-shadow: none;
     }
 
-    #intro p {
+    #business-info p {
         margin: 0 30px;
     }
 
@@ -443,16 +438,15 @@ footer {
     text-align: right;
     font-weight: bold;
     margin: 0 50px 20px 0;
-}
+    }
 
     /* Home second image */
-
     #kinsale-image-section {
         background: url(../images/kinsale-pano.webp) no-repeat center center/cover;
     }
 
-    /* Welcome section part 2*/
-    .welcome-second-part {
+    /* Business information part 2*/
+    .business-info-part-2 {
         display: flex;
         flex-wrap: wrap;
 
@@ -470,14 +464,14 @@ footer {
         text-align: justify
     }
 
-    .welcome-second-part > div {
+    .business-info-part-2 > div {
         margin-right: 30px;
         flex-basis: 350px;
         flex-grow: 1;
     }
 
     /* Contact page */
-   /* Reduce width of form frame */
+    /* Reduce width of form frame */
     #get-in-touch {
     margin: 20px 40px;
     }
@@ -492,28 +486,31 @@ footer {
     background-color: #009A44;
     color: #FFF7EF;
     }
+
     /* Style text input on hover */
     .text-input:hover {
         border-color: #009A44;
     }
 }
 
-/* * Media query: larger devices (laptops & desktops, 992px and up) */
+/* Media query: larger devices (laptops & desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-        /* Fonts size */
-        h1 {
-            font-size: 170%;
-        }
     
-        h2,
-        h3,
-        h4 {
-            font-size: 140%;
-        }
+    /* Fonts size */
+    h1 {
+        font-size: 170%;
+    }
     
-        p, ul {
-            font-size: 110%;
-        }
+    h2,
+    h3,
+    h4 {
+        font-size: 140%;
+    }
+    
+    p, ul {
+        font-size: 110%;
+    }
+
     #menu a:hover {
         border-bottom: 0.5px solid #323232;
     }
@@ -546,6 +543,7 @@ footer {
     #get-in-touch {
     margin: 20px 70px;
     }
+
     /* Reduce width of form input fields */
     .text-input {
     width: 35%;
@@ -556,15 +554,18 @@ footer {
     }
 }
 
-/* * Media query: larger screens (1400px and up) */
+/* Media query: larger screens (1400px and up) */
 @media screen and (min-width: 1400px) {
+    
     /* Hero section */
     #hero-section {
         height: 700px;
     }
+
     .hero-text {
         top: 480px;
     }
+
     /* Projects page*/
     .photo-item img {
     height: 600px;
