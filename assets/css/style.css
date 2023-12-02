@@ -173,6 +173,7 @@ main {
 .hero-text {
     position: absolute;
     top: 0;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 #home-page-h1 {
@@ -185,9 +186,10 @@ main {
 }
 
 #home-page-tagline {
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 1px;
     padding-top: 12px;
+    padding-bottom: 5px;
     text-shadow: 2px 2px 4px #ffffff;
 }
 
@@ -424,6 +426,7 @@ footer {
         text-align: left;
         left: 10px;
         color: #ffffff;
+        background-color: transparent;
     }
 
     #home-page-h1, #home-page-tagline {
