@@ -72,6 +72,14 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
 
 ## Testing
 
+- The site was tested in various browsers: Chrome, Microsoft Edge, Firefox, Brave, and no issues were identified with loading the site or browsing through the pages.
+  
+- TThe project is fully responsive; it looks presentable and retains full functionality on all standard screen sizes, tested using both the DevTools' device toolbar and multiple devices. However, one issue was identified during testing: when the project is viewed on a 13-inch screen in a browser with a bookmarks bar present, the content is pushed down, making the tagline unreadable. This indicates that a new media query is needed to shift the hero text upwards for better visibility.
+
+- The navigation bar and menu items are intuitive, easy to use, and understand.
+
+- The contact form is fully functional, with every field requiring an entry, including the email field which only accepts email addresses. The submit button is fully operational.
+
 ### Validator Testing
 
 - HTML
