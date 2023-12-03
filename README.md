@@ -74,7 +74,7 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
 
 ### Validator Testing
 
-- __HTML__
+- HTML
 
     In an attempt to adhere to web standards and accessibility, each page of the site was passed through [W3C validation testing](<https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkatepaulauskas.github.io%2Faerial-photography%2F>). Below is a summary of the issues identified and corresponding corrections made:
 
@@ -149,6 +149,19 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
                         <ul id=" why-choose-us -list">
                     ```
             . CSS was changed accordingly.
+    
+        Post-corrections, the code for the Home page succesfully passed W3C validation.
+        
+
+    - Projects Page
+  
+        When passign the PRojects page HTML code through W3C validator, no errors were returned.
+
+    - Contact Page
+
+        - Issue: Section lacks heading. Consider using 'h2-h6' elements to add identifying headings to all sections, or else use a 'div' element instead for any cases where no heading is needed.
+
+          - Correction: 
 
 - __CSS__
 
