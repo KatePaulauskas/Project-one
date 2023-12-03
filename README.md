@@ -74,11 +74,32 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
 
 - The site was tested in various browsers: Chrome, Microsoft Edge, Firefox, Brave, and no issues were identified with loading the site or browsing through the pages.
   
-- TThe project is fully responsive; it looks presentable and retains full functionality on all standard screen sizes, tested using both the DevTools' device toolbar and multiple devices. However, one issue was identified during testing: when the project is viewed on a 13-inch screen in a browser with a bookmarks bar present, the content is pushed down, making the tagline unreadable. This indicates that a new media query is needed to shift the hero text upwards for better visibility.
+- The project is fully responsive; it looks presentable and retains full functionality on all standard screen sizes, tested using both the DevTools' device toolbar and multiple devices. However, one issue was identified during testing: when the project is viewed on a 13-inch screen in a browser with a bookmarks bar present, the content is pushed down, making the tagline unreadable. This indicates that a new media query is needed to shift the hero text upwards for better visibility.
 
 - The navigation bar and menu items are intuitive, easy to use, and understand.
 
 - The contact form is fully functional, with every field requiring an entry, including the email field which only accepts email addresses. The submit button is fully operational.
+
+
+| Action/Feature          | Expected behavior       | Status         |
+|-------------------|-------------------------|----------------|
+|Enter site URL: <https://katepaulauskas.github.io/aerial-photography/> | Home page loads | Pass |
+|Menu |
+|Click on Projects page link | Projects page loads | Pass |
+|Click on Contact page link | Contact page loads | Pass |
+|Click on the hamburger menu icon on the mobile site | Menu items expand below the header in a dropdown | Pass |
+|Hamburger menu icon on tablets and larger screens | Hidden | Pass |
+|Form |
+|Click submit | Please fill out this field appears in the 'Name' field | Pass |
+|Fill out only the name, click submit | Please fill out this field appears in the 'Email' field | Pass |
+|Fill out name and email fields without @ sign, click submit | Please include an @ in the email address appears in the 'Email' field | Pass |
+|Fill out name and email address with @ sign, click submit | Please fill out this field appears in the 'Add your message' field | Pass |
+|Fill out name, email address with @ sign and add message, click submit | Sive visitor is taken to the 'Thank you' page | Pass |
+|Thank you page displayed upon successful submission of the form with 'Thank You' message and a video | Video plays automatically with muted sound | Pass |
+|Footer|
+|Click on Instagram icon in the footer | External link leading to Instagram opens in a new page | Pass |
+Click on YouTube icon in the footer | External link leading to YouTube opens in a new page | Pass |
+Click on Facebook icon in the footer | External link leading to Facebook opens in a new page | Pass |
 
 ### Validator Testing
 
@@ -89,9 +110,9 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
     - __Home Page__
   
       - __Issue 1:__ Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
-            ```
-                        <input type="checkbox" id="menu-toggle" />
-            ```
+                ```
+                            <input type="checkbox" id="menu-toggle" />
+                ```
       - Correction: Trailing slash and extra space were removed:
                 ```
                     <input type="checkbox" id="menu-toggle">
@@ -110,20 +131,20 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
       - __Issue 3:__ Duplicate ID 'services'.
   
         ```
-                <div id="services">(...)
-                    <ul id="services">(...)</ul>
-                </div>
+            <div id="services">(...)
+                <ul id="services">(...)</ul>
+            </div>
         ```
 
-      - Correction: ID for unordered list was changed from
-            ```
-                <ul id="services">
-            ```
+    - Correction: ID for unordered list was changed from
+                ```
+                    <ul id="services">
+                ```
                                             
         to 
-            ```
-                <ul id="services-list">
-            ```
+                ```
+                    <ul id="services-list">
+                ```
             . CSS file was changed accordingly.
                     
       - __Issue 4:__ The first occurrence of ID 'services' was here.
@@ -132,56 +153,56 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
                 ```
 
       - Correction: Since in the Issue 3 the 
-                    ```
-                        <ul id="services ">
-                    ```
+                ```
+                    <ul id="services ">
+                ```
             was changed to 
-                    ```
-                        <ul id="services-list">
-                    ```
+                ```
+                    <ul id="services-list">
+                ```
             the Issue 4 got resolved.
 
       - __Issue 5:__ Duplicate ID 'why-choose-us'.
   
         ```
-                    <div id="why-choose-us">(...)
-                        <ul id="why-choose-us">(...)</ul>
-                    </div>
+        <div id="why-choose-us">(...)
+            <ul id="why-choose-us">(...)</ul>
+        </div>
         ```
 
       - Correction: ID for unordered list was changed from 
-                    ```
-                        <ul id="why-choose-us">
-                    ```
+                ```
+                    <ul id="why-choose-us">
+                ```
             to 
-                    ```
-                        <ul id="why-choose-us -list">
-                    ```
+                ```
+                    <ul id="why-choose-us -list">
+                ```
             . CSS was changed accordingly.
             
       - __Issue 6:__ The first occurrence of ID 'why-choose-us' was here.
-                    ```
-                        <div id="why-choose-us">
-                    ```
+                ```
+                    <div id="why-choose-us">
+                ```
       - Correction: Since in the Issue 5 the
-                    ```
-                        <ul id="why-choose-us">
-                    ```
+                ```
+                    <ul id="why-choose-us">
+                ```
             was changed to
-                    ```
-                        <ul id="why-choose-us-list">
-                    ```
+                ```
+                    <ul id="why-choose-us-list">
+                ```
             the Issue 6 got resolved.
             
       - __Issue 7__ Possible misuse of 'aria-label'.
-                    ```
-                        <div id="kinsale-image-section" aria-label="An aerial view of Kinsale">
-                    ```
+                ```
+                    <div id="kinsale-image-section" aria-label="An aerial view of Kinsale">
+                ```
                     
       - Correction: Replace the 'div' element with 'section' to ensure proper use of aria-label for accessability purpose.
-                    ```
-                        <section id="kinsale-image-section" aria-label="An aerial view of Kinsale">
-                    ```
+                ```
+                    <section id="kinsale-image-section" aria-label="An aerial view of Kinsale">
+                ```
     
       - Post-corrections, the code for the Home page succesfully passed W3C validation.
         
@@ -195,15 +216,15 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
     - __Contact Page__
 
         - __Issue:__ Section lacks heading. Consider using 'h2-h6' elements to add identifying headings to all sections, or else use a 'div' element instead for any cases where no heading is needed.
-                    ```
-                        <section id="get-in-touch-img" aria-label="Aerial view of Barley Cove in Ireland">
-                    ```
+                ```
+                    <section id="get-in-touch-img" aria-label="Aerial view of Barley Cove in Ireland">
+                ```
 
-          - Correction: Hidden heading was added to the image section:
+        - Correction: Hidden heading was added to the image section:
   
             ```
-                        <section id="get-in-touch-img" aria-label="Aerial view of Barley Cove in Ireland">
-                        <h2 class="hidden-heading">Aerial view of Barley Cove in Ireland</h2>
+                <section id="get-in-touch-img" aria-label="Aerial view of Barley Cove in Ireland">
+                <h2 class="hidden-heading">Aerial view of Barley Cove in Ireland</h2>
             ```
 
       - The code for the Contact page succesfully passed W3C validation after the introduced correction.
@@ -213,10 +234,10 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
         - __Issue 1:__ The 'frameborder' attribute on the 'iframe' element is obsolete. Use CSS instead.
 
              ```
-                        <iframe src=https://www.youtube-nocookie.com/embed/lySMfmgim5M?si=l4s54nbUCoQdlkJ5&autoplay=1&mute=1&loop=1&playlist=lySMfmgim5M&vq=hd1080&rel=0
-                        (…) frameborder="0" >
-                        (…)
-                        </iframe>
+                <iframe src=https://www.youtube-nocookie.com/embed/lySMfmgim5M?si=l4s54nbUCoQdlkJ5&autoplay=1&mute=1&loop=1&playlist=lySMfmgim5M&vq=hd1080&rel=0
+                (…) frameborder="0" >
+                (…)
+                </iframe>
             ```
 
         - Correction: The 'frameborder' attribute was removed from HTML and added in CSS
