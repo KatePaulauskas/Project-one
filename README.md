@@ -149,19 +149,63 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
                         <ul id=" why-choose-us -list">
                     ```
             . CSS was changed accordingly.
+            
+      - Issue 6. Possible misuse of 'aria-label'.
+                    ```
+                        <div id="kinsale-image-section" aria-label="An aerial view of Kinsale">
+                    ```
+          - Correction:
     
         Post-corrections, the code for the Home page succesfully passed W3C validation.
         
 
     - Projects Page
   
-        When passign the PRojects page HTML code through W3C validator, no errors were returned.
+        When passign the Projects page HTML code through W3C validator, no errors were returned.
 
     - Contact Page
 
         - Issue: Section lacks heading. Consider using 'h2-h6' elements to add identifying headings to all sections, or else use a 'div' element instead for any cases where no heading is needed.
+                    ```
+                        <section id="get-in-touch-img" aria-label="Aerial view of Barley Cove in Ireland">
+                    ```
 
-          - Correction: 
+          - Correction: Hidden heading was added to the image section:
+                    ```
+                        <section id="get-in-touch-img" aria-label="Aerial view of Barley Cove in Ireland">
+                        <h2 class="hidden-heading">Aerial view of Barley Cove in Ireland</h2>
+                    ```
+                    
+    - Thank You page
+        - Issue 1. The 'frameborder' attribute on the 'iframe' element is obsolete. Use CSS instead.
+                    ```
+                        <iframe src=https://www.youtube-nocookie.com/embed/lySMfmgim5M?si=l4s54nbUCoQdlkJ5&autoplay=1&mute=1&loop=1&playlist=lySMfmgim5M&vq=hd1080&rel=0
+                        (…) frameborder="0" >
+                        (…)
+                        </iframe>
+                    ```
+
+          - Correction: The 'frameborder' attribute was removed from HTML and added in CSS
+                    ```
+                        #video iframe {
+                        (…)
+                            border: 0;
+                        }
+                    ```
+
+        - Issue 2. Section lacks heading. Consider using 'h2-h6' elements to add identifying headings to all sections, or else use a 'div' element instead for any cases where no heading is needed.
+                    ```
+                        <section id="video">
+                    ```
+
+          - Correction: Hidden heading was added to the video section:
+                    ```
+                        <section id="video">
+                        <h2 id=”hidden-heading”>Aerial view of Charles Fort </h2>
+                        (…)
+                        </section>
+                    ```
+
 
 - __CSS__
 
