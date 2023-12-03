@@ -233,6 +233,12 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
 
 
 - __CSS__
+  
+    To align with web standards and ensure accessability compliance CSS code of the site was passed through [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkatepaulauskas.github.io%2Faerial-photography%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). Below is a summary of the issues identified and corresponding corrections made:
+
+      - Issue 1: 64 - header - 'top' is not a 'align-items' value : 'top'
+      - Issue 2: 227 - #services-list, #why-choose-us-list - Value Error : font-family 100% is not a font-family value : 100%
+      - Issue 3: 438 - #hero-section - left is not a align-items value : left
 
 - __Accessability__
 
