@@ -211,7 +211,7 @@ main {
 }
 
 /* Services & Why choose us styles */
-#services, #why-choose-us {
+#services-list, #why-choose-us-list {
     list-style-type: circle;
     padding: 10px 10px 10px 20px;
     font-family: 100%;
