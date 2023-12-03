@@ -78,7 +78,7 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
 
     In an attempt to adhere to web standards and accessibility, each page of the site was passed through [W3C validation testing](<https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkatepaulauskas.github.io%2Faerial-photography%2F>). Below is a summary of the issues identified and corresponding corrections made:
 
-    - Home Page
+    - __Home Page__
   
       - Issue 1: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
             ```
@@ -89,7 +89,7 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
                     <input type="checkbox" id="menu-toggle">
                 ```
 
-      - Issue 2: Error: Stray end tag iconify-icon.
+      - Issue 2: Error: Stray end tag 'iconify-icon'.
                 ```
                             <h3>(...)</iconify-icon></iconify-icon></h3>
                 ```
@@ -99,7 +99,7 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
                     <h3>(...)</iconify-icon></h3>
                 ```
 
-      - Issue 3: Duplicate ID services.
+      - Issue 3: Duplicate ID 'services'.
                 ```
                     <div id="services">(...)
                         <ul id="services">(...)
@@ -117,7 +117,7 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
                     ```
             . CSS file was changed accordingly.
                     
-      - Issue 4. The first occurrence of ID services  was here.
+      - Issue 4. The first occurrence of ID 'services' was here.
                 ```
                     <div id="services">
                 ```
@@ -132,7 +132,7 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
                     ```
             the Issue 4 got resolved.
 
-      - Issue 5. Duplicate ID why-choose-us.
+      - Issue 5. Duplicate ID 'why-choose-us'.
                 ```
                     <div id="why-choose-us">(...)
                         <ul id="why-choose-us">(...)
@@ -142,28 +142,48 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
 
           - Correction: ID for unordered list was changed from 
                     ```
-                        <ul id=" why-choose-us">
+                        <ul id="why-choose-us">
                     ```
             to 
                     ```
-                        <ul id=" why-choose-us -list">
+                        <ul id="why-choose-us -list">
                     ```
             . CSS was changed accordingly.
             
-      - Issue 6. Possible misuse of 'aria-label'.
+      - Issue 6. The first occurrence of ID 'why-choose-us' was here.
+                    ```
+                        <div id="why-choose-us">
+                    ```
+          - Correction: Since in the Issue 5 the
+                    ```
+                        <ul id="why-choose-us">
+                    ```
+            was changed to
+                    ```
+                        <ul id="why-choose-us-list">
+                    ```
+            the Issue 6 got resolved.
+            
+      - Issue 7. Possible misuse of 'aria-label'.
                     ```
                         <div id="kinsale-image-section" aria-label="An aerial view of Kinsale">
                     ```
-          - Correction:
+                    
+          - Correction: Replace the 'div' element with 'section' to ensure proper use of aria-label for accessability purpose.
+                    ```
+                        <section id="kinsale-image-section" aria-label="An aerial view of Kinsale">
+                    ```
     
-        Post-corrections, the code for the Home page succesfully passed W3C validation.
+      - Post-corrections, the code for the Home page succesfully passed W3C validation.
+        
         
 
-    - Projects Page
+    - __Projects Page__
   
         When passign the Projects page HTML code through W3C validator, no errors were returned.
+        
 
-    - Contact Page
+    - __Contact Page__
 
         - Issue: Section lacks heading. Consider using 'h2-h6' elements to add identifying headings to all sections, or else use a 'div' element instead for any cases where no heading is needed.
                     ```
@@ -175,8 +195,11 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
                         <section id="get-in-touch-img" aria-label="Aerial view of Barley Cove in Ireland">
                         <h2 class="hidden-heading">Aerial view of Barley Cove in Ireland</h2>
                     ```
+
+      - The code for the Contact page succesfully passed W3C validation after the introduced correction.
+        
                     
-    - Thank You page
+    - __Thank You page__
         - Issue 1. The 'frameborder' attribute on the 'iframe' element is obsolete. Use CSS instead.
                     ```
                         <iframe src=https://www.youtube-nocookie.com/embed/lySMfmgim5M?si=l4s54nbUCoQdlkJ5&autoplay=1&mute=1&loop=1&playlist=lySMfmgim5M&vq=hd1080&rel=0
@@ -205,6 +228,8 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
                         (…)
                         </section>
                     ```
+
+      - Post-corrections, the code for the Thank You page succesfully passed W3C validation.
 
 
 - __CSS__
