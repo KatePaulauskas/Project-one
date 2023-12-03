@@ -222,12 +222,12 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
                     ```
 
           - Correction: Hidden heading was added to the video section:
-                    ```
-                        <section id="video">
-                        <h2 id=”hidden-heading”>Aerial view of Charles Fort </h2>
-                        (…)
-                        </section>
-                    ```
+            ```
+            <section id="video">
+            <h2 id=”hidden-heading”>Aerial view of Charles Fort </h2>
+            (…)
+            </section>
+            ```
 
       - Post-corrections, the code for the Thank You page succesfully passed W3C validation.
 
@@ -237,8 +237,15 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
     To align with web standards and ensure accessability compliance CSS code of the site was passed through [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkatepaulauskas.github.io%2Faerial-photography%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). Below is a summary of the issues identified and corresponding corrections made:
 
       - Issue 1: 64 - header - 'top' is not a 'align-items' value : 'top'
+        - Correction: 'top' was replaced with 'flex-start' value to 'align-items' to the top
+
       - Issue 2: 227 - #services-list, #why-choose-us-list - Value Error : font-family 100% is not a font-family value : 100%
+        - Correction: 'font-family' was replaced with 'font-size'
+
       - Issue 3: 438 - #hero-section - left is not a align-items value : left
+        - Correction: To align items to the left 'align-items' property was replaced with 'justify content' property and 'flex-start' value was used to keep items to the left"
+
+
 
 - __Accessability__
 
