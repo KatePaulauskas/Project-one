@@ -61,7 +61,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: top;
+    align-items: flex-start;
     padding-right: 0px;
     height: 75.4px;
 }
@@ -224,7 +224,7 @@ main {
 #services-list, #why-choose-us-list {
     list-style-type: circle;
     padding: 10px 10px 10px 20px;
-    font-family: 100%;
+    font-size: 100%;
 }
 
 /* Projects page*/
@@ -435,7 +435,8 @@ footer {
         max-width: 100%;
         background: url(../images/sheeps-head-hotizontal-small.webp) no-repeat center right/cover;
         background-color: #8ab7da;
-        align-items: left;
+        /* Align items ot the left */
+        justify-content: flex-start;
     }
 
     .hero-text {
