@@ -42,6 +42,16 @@ p {
     font-size: 100%;
 }
 
+/* Hidden headings for image and video sections to improve accessability. Source: https: //www.w3schools.com/accessibility/accessibility_heading_levels.php */
+.hidden-heading {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
 /* Header */
 header {
     background-color: #FF8200;
