@@ -236,21 +236,71 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
   
     To align with web standards and ensure accessability compliance CSS code of the site was passed through [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkatepaulauskas.github.io%2Faerial-photography%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). Below is a summary of the issues identified and corresponding corrections made:
 
-      - Issue 1: 64 - header - 'top' is not a 'align-items' value : 'top'
-        - Correction: 'top' was replaced with 'flex-start' value to 'align-items' to the top
+  - Issue 1: 64 - header - 'top' is not a 'align-items' value : 'top'
+    - Correction: 'top' was replaced with 'flex-start' value to 'align-items' to the top
 
-      - Issue 2: 227 - #services-list, #why-choose-us-list - Value Error : font-family 100% is not a font-family value : 100%
-        - Correction: 'font-family' was replaced with 'font-size'
+  - Issue 2: 227 - #services-list, #why-choose-us-list - Value Error : font-family 100% is not a font-family value : 100%
+    - Correction: 'font-family' was replaced with 'font-size'
 
-      - Issue 3: 438 - #hero-section - left is not a align-items value : left
-        - Correction: To align items to the left 'align-items' property was replaced with 'justify content' property and 'flex-start' value was used to keep items to the left"
+  - Issue 3: 438 - #hero-section - left is not a align-items value : left
+    - Correction: To align items to the left 'align-items' property was replaced with 'justify content' property and 'flex-start' value was used to keep items to the left"
+
+  - Issue 4. Warning - Imported style sheets are not checked in direct input and file upload modes:
+  
+    ```
+        @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Architects+Daughter&family=Duru+Sans&display=swap') ;
+    ```
+
+    - Comment: This is an external stylesheet provided by Google fonts and it is beyond our control to check it
 
 
 
 - __Accessability__
+  
+### Solved Bugs
 
-### Unfixed Bugs
+### Shortcomings
+To maintain a consistent look and style for the site and ensure an exceptional user experience, the decision was made to avoid redirecting form submissions to the [external link of the Code Institute](https://formdump.codeinstitute.net). Instead, site visitors were supposed to be directed to a hidden page within the site, keeping them engaged on-site and preventing redirection to an external link. Initially, the strategy was to display form submissions by following instructions from  [W3Schools](<https://www.w3schools.com/php/php_forms.asp>), leading to the creation of two files: process-form.php and display-results.php, with the appropriate code implemented. However, it was later discovered that backend support is not available for this project. Consequently, these files were removed and replaced with a 'Thank You' page, which displays a message of gratitude, however  does not show the results of the submissions.
 
+- process-form.php
+```
+<?php
+session_start();
+
+// Collect form data
+$_SESSION['name'] = $_POST['name'];
+$_SESSION['email'] = $_POST['email-address'];
+$_SESSION['message'] = $_POST['add-your-message'];
+
+</body>
+</html>
+// Redirect to the results page
+header('Location: display-results.php');
+exit();
+?>
+```
+
+- display-results.php
+```
+<?php
+session_start();
+
+// Check if the session variables are set
+if (isset($_SESSION['name']) && isset($_SESSION['email']) && isset($_SESSION['message'])) {
+    // Display the results
+    echo "<h1>Form Submission Results</h1>";
+    echo "<p>Name: " . htmlspecialchars($_SESSION['name']) . "</p>";
+    echo "<p>Email: " . htmlspecialchars($_SESSION['email']) . "</p>";
+    echo "<p>Message: " . htmlspecialchars($_SESSION['message']) . "</p>";
+
+    // Clear the session data
+    session_unset();
+    session_destroy();
+} else {
+    echo "<p>No form data received.</p>";
+}
+?>
+```
 ## Deployment
 
 The live link to the site can be found at the following URL: [Aerial Photography]
