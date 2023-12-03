@@ -76,6 +76,80 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
 
 - __HTML__
 
+    In an attempt to adhere to web standards and accessibility, each page of the site was passed through [W3C validation testing](<https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkatepaulauskas.github.io%2Faerial-photography%2F>). Below is a summary of the issues identified and corresponding corrections made:
+
+    - Home Page
+  
+      - Issue 1: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+            ```
+                        <input type="checkbox" id="menu-toggle" />
+            ```
+        - Correction: Trailing slash and extra space were removed:
+                ```
+                    <input type="checkbox" id="menu-toggle">
+                ```
+
+      - Issue 2: Error: Stray end tag iconify-icon.
+                ```
+                            <h3>(...)</iconify-icon></iconify-icon></h3>
+                ```
+
+    	- Correction: extra closing tag for the icon at the end of Welcome heading was removed:
+                ```
+                    <h3>(...)</iconify-icon></h3>
+                ```
+
+      - Issue 3: Duplicate ID services.
+                ```
+                    <div id="services">(...)
+                        <ul id="services">(...)
+                        </ul>
+                    </div>
+                ```
+
+          - Correction: ID for unordered list was changed from 
+                    ```
+                        <ul id="services ">
+                    ```
+            to 
+                    ```
+                        <ul id="services-list">
+                    ```
+            . CSS file was changed accordingly.
+                    
+      - Issue 4. The first occurrence of ID services  was here.
+                ```
+                    <div id="services">
+                ```
+
+          - Correction: Since in the Issue 3 the 
+                    ```
+                        <ul id="services ">
+                    ```
+            was changed to 
+                    ```
+                        <ul id="services-list">
+                    ```
+            the Issue 4 got resolved.
+
+      - Issue 5. Duplicate ID why-choose-us.
+                ```
+                    <div id="why-choose-us">(...)
+                        <ul id="why-choose-us">(...)
+                        </ul>
+                    </div>
+                ```
+
+          - Correction: ID for unordered list was changed from 
+                    ```
+                        <ul id=" why-choose-us">
+                    ```
+            to 
+                    ```
+                        <ul id=" why-choose-us -list">
+                    ```
+            . CSS was changed accordingly.
+
 - __CSS__
 
 - __Accessability__
