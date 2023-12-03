@@ -80,49 +80,50 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
 
     - __Home Page__
   
-      - Issue 1: Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+      - __Issue 1:__ Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
             ```
                         <input type="checkbox" id="menu-toggle" />
             ```
-        - Correction: Trailing slash and extra space were removed:
+      - Correction: Trailing slash and extra space were removed:
                 ```
                     <input type="checkbox" id="menu-toggle">
                 ```
 
-      - Issue 2: Error: Stray end tag 'iconify-icon'.
+      - __Issue 2:__ Error: Stray end tag 'iconify-icon'.
                 ```
                             <h3>(...)</iconify-icon></iconify-icon></h3>
                 ```
 
-    	- Correction: extra closing tag for the icon at the end of Welcome heading was removed:
+      - Correction: extra closing tag for the icon at the end of Welcome heading was removed:
                 ```
                     <h3>(...)</iconify-icon></h3>
                 ```
 
-      - Issue 3: Duplicate ID 'services'.
-                ```
-                    <div id="services">(...)
-                        <ul id="services">(...)
-                        </ul>
-                    </div>
-                ```
+      - __Issue 3:__ Duplicate ID 'services'.
+  
+        ```
+                <div id="services">(...)
+                    <ul id="services">(...)</ul>
+                </div>
+        ```
 
-          - Correction: ID for unordered list was changed from 
-                    ```
-                        <ul id="services ">
-                    ```
-            to 
-                    ```
-                        <ul id="services-list">
-                    ```
+      - Correction: ID for unordered list was changed from
+            ```
+                <ul id="services">
+            ```
+                                            
+        to 
+            ```
+                <ul id="services-list">
+            ```
             . CSS file was changed accordingly.
                     
-      - Issue 4. The first occurrence of ID 'services' was here.
+      - __Issue 4:__ The first occurrence of ID 'services' was here.
                 ```
                     <div id="services">
                 ```
 
-          - Correction: Since in the Issue 3 the 
+      - Correction: Since in the Issue 3 the 
                     ```
                         <ul id="services ">
                     ```
@@ -132,15 +133,15 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
                     ```
             the Issue 4 got resolved.
 
-      - Issue 5. Duplicate ID 'why-choose-us'.
-                ```
+      - __Issue 5:__ Duplicate ID 'why-choose-us'.
+  
+        ```
                     <div id="why-choose-us">(...)
-                        <ul id="why-choose-us">(...)
-                        </ul>
+                        <ul id="why-choose-us">(...)</ul>
                     </div>
-                ```
+        ```
 
-          - Correction: ID for unordered list was changed from 
+      - Correction: ID for unordered list was changed from 
                     ```
                         <ul id="why-choose-us">
                     ```
@@ -150,11 +151,11 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
                     ```
             . CSS was changed accordingly.
             
-      - Issue 6. The first occurrence of ID 'why-choose-us' was here.
+      - __Issue 6:__ The first occurrence of ID 'why-choose-us' was here.
                     ```
                         <div id="why-choose-us">
                     ```
-          - Correction: Since in the Issue 5 the
+      - Correction: Since in the Issue 5 the
                     ```
                         <ul id="why-choose-us">
                     ```
@@ -164,12 +165,12 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
                     ```
             the Issue 6 got resolved.
             
-      - Issue 7. Possible misuse of 'aria-label'.
+      - __Issue 7__ Possible misuse of 'aria-label'.
                     ```
                         <div id="kinsale-image-section" aria-label="An aerial view of Kinsale">
                     ```
                     
-          - Correction: Replace the 'div' element with 'section' to ensure proper use of aria-label for accessability purpose.
+      - Correction: Replace the 'div' element with 'section' to ensure proper use of aria-label for accessability purpose.
                     ```
                         <section id="kinsale-image-section" aria-label="An aerial view of Kinsale">
                     ```
@@ -185,30 +186,32 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
 
     - __Contact Page__
 
-        - Issue: Section lacks heading. Consider using 'h2-h6' elements to add identifying headings to all sections, or else use a 'div' element instead for any cases where no heading is needed.
+        - __Issue:__ Section lacks heading. Consider using 'h2-h6' elements to add identifying headings to all sections, or else use a 'div' element instead for any cases where no heading is needed.
                     ```
                         <section id="get-in-touch-img" aria-label="Aerial view of Barley Cove in Ireland">
                     ```
 
           - Correction: Hidden heading was added to the image section:
-                    ```
+  
+            ```
                         <section id="get-in-touch-img" aria-label="Aerial view of Barley Cove in Ireland">
                         <h2 class="hidden-heading">Aerial view of Barley Cove in Ireland</h2>
-                    ```
+            ```
 
       - The code for the Contact page succesfully passed W3C validation after the introduced correction.
         
                     
     - __Thank You page__
-        - Issue 1. The 'frameborder' attribute on the 'iframe' element is obsolete. Use CSS instead.
-                    ```
+        - __Issue 1:__ The 'frameborder' attribute on the 'iframe' element is obsolete. Use CSS instead.
+
+             ```
                         <iframe src=https://www.youtube-nocookie.com/embed/lySMfmgim5M?si=l4s54nbUCoQdlkJ5&autoplay=1&mute=1&loop=1&playlist=lySMfmgim5M&vq=hd1080&rel=0
                         (…) frameborder="0" >
                         (…)
                         </iframe>
-                    ```
+            ```
 
-          - Correction: The 'frameborder' attribute was removed from HTML and added in CSS
+        - Correction: The 'frameborder' attribute was removed from HTML and added in CSS
                     ```
                         #video iframe {
                         (…)
@@ -216,12 +219,12 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
                         }
                     ```
 
-        - Issue 2. Section lacks heading. Consider using 'h2-h6' elements to add identifying headings to all sections, or else use a 'div' element instead for any cases where no heading is needed.
+        - __Issue 2:__ Section lacks heading. Consider using 'h2-h6' elements to add identifying headings to all sections, or else use a 'div' element instead for any cases where no heading is needed.
                     ```
                         <section id="video">
                     ```
 
-          - Correction: Hidden heading was added to the video section:
+        - Correction: Hidden heading was added to the video section:
             ```
             <section id="video">
             <h2 id=”hidden-heading”>Aerial view of Charles Fort </h2>
@@ -236,16 +239,16 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
   
     To align with web standards and ensure accessability compliance CSS code of the site was passed through [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkatepaulauskas.github.io%2Faerial-photography%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). Below is a summary of the issues identified and corresponding corrections made:
 
-  - Issue 1: 64 - header - 'top' is not a 'align-items' value : 'top'
+  - __Issue 1:__ 64 - header - 'top' is not a 'align-items' value : 'top'
     - Correction: 'top' was replaced with 'flex-start' value to 'align-items' to the top
 
-  - Issue 2: 227 - #services-list, #why-choose-us-list - Value Error : font-family 100% is not a font-family value : 100%
+  - __Issue 2:__ 227 - #services-list, #why-choose-us-list - Value Error : font-family 100% is not a font-family value : 100%
     - Correction: 'font-family' was replaced with 'font-size'
 
-  - Issue 3: 438 - #hero-section - left is not a align-items value : left
+  - __Issue 3:__ 438 - #hero-section - left is not a align-items value : left
     - Correction: To align items to the left 'align-items' property was replaced with 'justify content' property and 'flex-start' value was used to keep items to the left"
 
-  - Issue 4. Warning - Imported style sheets are not checked in direct input and file upload modes:
+  - __Issue 4:__ Warning - Imported style sheets are not checked in direct input and file upload modes:
   
     ```
         @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Architects+Daughter&family=Duru+Sans&display=swap') ;
