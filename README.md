@@ -54,19 +54,76 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
 
     - The overlay text is displayed in white, strategically positioned in the bottom left corner to ensure a striking contrast with the deep blue waters and thoughtfully placed so as not to obstruct the view of the rocky shoreline.
 
-    ![Home Page imageon desktop](media/home-page-image.png)
+    ![Home Page image on desktop](media/home-page-image.png)
 
    
 
 - __Business Info__
+  - Business Info: part 1
+    - Mobile
+
+        ![Business Info part 1 on mobile](media/business-info-part-1-mobile.png)
+        
+    - Larger Screens
+
+        ![Business Info part 1 on larger screens](media/business-info-part-1.png)
+        
+  - Business Info: quote and image
+    - Mobile
+
+        ![Business Info: quote and image on mobile](media/quote-and-image-2-mobile.png)
+
+    - Larger Screens
+
+        ![Business Info: quote and image on screens](media/quote-and-image-2.png)
+
+  - Business Info: part 2
+
+    - Mobile
+
+        ![Business Info part 2 on mobile](media/business-info-part-2-mobile.png)
+
+    - Tablet
+        
+        ![Business Info part 2 on mobile](media/business-info-part-2-tablet.png)
+
+    - Desktop
+
+        ![Business Info part 1 on larger screens](media/business-info-part-2.png)
 
 - __Footer__
 
-- __Projects Page__
+![Footer](media/footer.png)
 
+- __Projects Page__
+  
+  - Mobile
+  
+    ![Projects Page on mobile](media/portfolio-page-mobile.png)
+
+  - Larger Screens
+
+    ![Projects Page on larger screens](media/portfolio-page.png)
+  
 - __Contact Page__
+  
+  - Mobile
+  
+    ![Contact Page on mobile](media/contact-page-mobile.png)
+
+  - Larger Screens
+
+    ![Contact Page on larger screens](media/contact-page.png)
 
 - __Thank you Page__
+  
+  - Mobile
+  
+    ![Thank You Page on mobile](media/thank-you-page-mobile.png)
+
+  - Larger Screens
+
+    ![Thank You Page on larger screens](media/thank-you-page.png)
 
 ### Features Left to Implement
 
@@ -74,7 +131,16 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
 
 - The site was tested in various browsers: Chrome, Microsoft Edge, Firefox, Brave, and no issues were identified with loading the site or browsing through the pages.
   
-- The project is fully responsive; it looks presentable and retains full functionality on all standard screen sizes, tested using both the DevTools' device toolbar and multiple devices. However, one issue was identified during testing: when the project is viewed on a 13-inch screen in a browser with a bookmarks bar present, the content is pushed down, making the tagline unreadable. This indicates that a new media query is needed to shift the hero text upwards for better visibility.
+- The project is fully responsive; it looks presentable and retains full functionality on all standard screen sizes, tested using both the DevTools' device toolbar and multiple devices. However, one issue was identified during testing: when the project is viewed on a 13-inch screen in Chrome browser with a bookmarks bar present, the content is pushed down, making the tagline on the home page unreadable. This indicates that a new media query is needed to shift the hero text upwards for better visibility.
+
+  - 13-inch screen in Microsoft browser withithout bookmarks bar
+  
+    ![13-inch screen in Microsoft Edge browser without bookmarks bar](media/13-inch-no-bookmarks-bar.png)
+
+  - 13-inch screen in Chrome browser with bookmarks bar present
+
+    ![13-inch screen in Chrome browser with a bookmarks bar present](media/13-inch-with-bookmarks-bar.png)
+
 
 - The navigation bar and menu items are intuitive, easy to use, and understand.
 
@@ -288,8 +354,33 @@ Click on Facebook icon in the footer | External link leading to Facebook opens i
 
 
 - __Accessability__
+  - Mobile 
+  
+    ![Lighthouse test on mobile](media/lighthouse-mobile.png)
+    
+  - Desktop
+
+    ![Lighthouse test on desktop](media/lighthouse-desktop.png)
   
 ### Solved Bugs
+
+- Menu dropdown on mobile
+
+    No border bottom
+    
+  ![](media/navigation-bar-mobile-before-with-the-gap.png)
+  
+  With orange border bottom
+  
+  ![](media/navigation-bar-mobile-border-bottom-orange.png)
+  
+  With black border-bottom
+  
+  ![](media/navigation-bar-mobile-border-bottom-black.png)
+
+  With dark-orange border bottom
+  
+  ![](media/navigation-bar-mobile-border-bottom-dark-orange.png)
 
 ### Shortcomings
 To maintain a consistent look and style for the site and ensure an exceptional user experience, the decision was made to avoid redirecting form submissions to the [external link of the Code Institute](https://formdump.codeinstitute.net). Instead, site visitors were supposed to be directed to a hidden page within the site, keeping them engaged on-site and preventing redirection to an external link. Initially, the strategy was to display form submissions by following instructions from  [W3Schools](<https://www.w3schools.com/php/php_forms.asp>), leading to the creation of two files: process-form.php and display-results.php, with the appropriate code implemented. However, it was later discovered that backend support is not available for this project. Consequently, these files were removed and replaced with a 'Thank You' page, which displays a message of gratitude, however  does not show the results of the submissions.
