@@ -67,7 +67,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
     
     ##### Mobile
     
-    - On mobile, all three sections are stacked vertically to effectively use the screen pace on mobile.
+    - On mobile, all three sections are stacked vertically to effectively use the mobile screen space.
 
         ![Business Info part 1 on mobile](media/business-info-part-1-mobile.png)
         
@@ -79,7 +79,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
         
   - Business Info. Part 2. Quote and image.
   
-    The second part the business information consists a quote by W.B. Yeats about Irish nature and a picture of Kinsale Harbor. This allos to add creativity and create a pleasant visual break in the page content.
+    The second part the business information consists of a quote by W.B. Yeats about Irish nature and a picture of Kinsale Harbor. This allows to add creativity and create a pleasant visual break in the page content.
     
     ##### Mobile
     
@@ -95,7 +95,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
 
   - Business Info. Part 3.
 
-    - The third part of the business information provides further information on the business, providing details on services offered, the company's promise, and reasons to choose Aerial Photography.
+    - The third part of the business information provides further information on the business, providing details on services offered, the company's promise, and reasons for choosing choose Aerial Photography.
     
     ##### Mobile
 
@@ -105,7 +105,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
 
     ##### Tablet
         
-    - On the tablets in becomes responsive, and adapts to the screen size forming two columns on top and one at the bottom.
+    - On the tablets, it becomes responsive and adapts to the screen size forming two columns on top and one at the bottom.
         
     ![Business Info part 3 on tablet](media/business-info-part-3-tablet.png)
 
@@ -118,7 +118,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
 - __Footer__
   
     - The site’s footer is positioned at the bottom of the page and appears across all site pages. 
-    - The color of the footer was inspired by the Irish flag theme and is in green.
+    - The color of the footer was inspired by the Irish flag theme and is in green color.
     - Social media links are presented in the footer and when clicked, they take site visitors to Instagram, YouTube, or Facebook pages respectively in a new browser tab.
     - Social media links in the footer encourage site visitors to click on them and subscribe to the Aerial Photography social media channels to stay in touch and get updates on the new content released.
 
@@ -142,7 +142,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
   
 - __Contact Page__
 
-  - The Contact page offers an opportunity to get in touch with the business for inquiries and additional questions. It includes a contact form with a full validation and an image of Barley Cove beach, which adapts its width to the size of the screen.
+  - The Contact page offers an opportunity to get in touch with the business for inquiries and additional questions. It includes a contact form with full validation and an image of Barley Cove Beach, which adapts its width to the size of the screen.
 
     ![Contact Page](media/contact-page.png)
 
@@ -154,11 +154,11 @@ The site could be of interest to anyone who loves Ireland and aerial photography
 
 ### Features Left to Implement
 
-  - It would be beneficial to further improve the code on the 'Thank You' pafe for larger screens, to ensure that the video fits within the page in such a way that there is no vertical scrolling. This could allow the site visitors to have an easy access to the control panel of the video without the need to scroll down the page to reach the controls.
+  - It would be beneficial to further improve the code on the 'Thank You' page for larger screens, to ensure that the video fits within the page in such a way that there is no vertical scrolling. This could allow the site visitors to have easy access to the control panel of the video without the need to scroll down the page to reach the controls.
   
     #### Potential features to be implemented to further develop the project
     
-  - It could be beneficial to develop a content management system and add login bar for member's area. This feature would enable business owners and photographers to log into the site and upload fresh content on the new and existing projects section directly without the need to go to the back end of the site and edit it.
+  - It could be beneficial to develop a content management system and add a login bar for the member's area. This feature would enable business owners and photographers to log into the site and upload fresh content on the new and existing projects section directly without the need to go to the back end of the site and edit it.
   
 
 ## Testing
@@ -169,7 +169,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
   
   - Upon physically checking the site on multiple devices one issue was identified. When the project is viewed on a 13-inch screen in a browser with a bookmarks bar present, the content is pushed down and the tagline is not readable. This means that a new media query needs to be created to shift the hero text up.
 
-  - 13-inch screen in Microsoft browser withithout bookmarks bar
+  - 13-inch screen in Microsoft browser without bookmarks bar
   
     ![13-inch screen in Microsoft Edge browser without bookmarks bar](media/13-inch-no-bookmarks-bar.png)
 
@@ -177,7 +177,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
   
     ![13-inch screen in Chrome browser with bookmarks bar](media/13-inch-with-bookmarks-bar.png)
 
-- Navigation bar and menu items are intuitive and easy to use and understand.
+- The navigation bar and menu items are intuitive and easy to use and understand.
 
 - The contact form is fully functional with every field requiring entries, including the email field only accepting email. The submit button is fully functional.
 
@@ -187,22 +187,22 @@ The site could be of interest to anyone who loves Ireland and aerial photography
     |-------------------|-------------------------|----------------|
     |Enter site URL: <https://katepaulauskas.github.io/aerial-photography/> | Home page loads | Pass |
     |Menu |
-    |Click on Projects page link | Projects page loads | Pass |
-    |Click on Contact page link | Contact page loads | Pass |
-    |Click on Home page link | Home page loads | Pass |
+    |Click on the Projects page link | Projects page loads | Pass |
+    |Click on the Contact page link | Contact page loads | Pass |
+    |Click on the Home page link | Home page loads | Pass |
     |Click on the hamburger menu icon on the mobile site | Menu items expand below the header in a dropdown | Pass |
     |Hamburger menu icon on tablets and larger screens | Hidden | Pass |
     |Form |
     |Click submit | Please fill out this field appears in the 'Name' field | Pass |
-    |Fill out only the name, click submit | Please fill out this field appears in the 'Email' field | Pass |
-    |Fill out name and email fields without @ sign, click submit | Please include an @ in the email address appears in the 'Email' field | Pass |
-    |Fill out name and email address with @ sign, click submit | Please fill out this field appears in the 'Add your message' field | Pass |
-    |Fill out name, email address with @ sign and add message, click submit | Sive visitor is taken to the 'Thank you' page | Pass |
-    |Thank you page displayed upon successful submission of the form with 'Thank You' message and a video | Video plays automatically with muted sound | Pass |
+    |Fill out only the name,and click submit | 'Please fill out this field' appears in the 'Email' field | Pass |
+    |Fill out the name and email fields without the @ sign, and click submit | 'Please include an @ in the email address' appears in the 'Email' field | Pass |
+    |Fill out the name and email address with the @ sign, and click submit | 'Please fill out this field' appears in the 'Add your message' field | Pass |
+    |Fill out the name, email address with the @ sign and add a message, click submit | Sive visitor is taken to the 'Thank you' page | Pass |
+    |Thank you page displayed upon successful submission of the form with a 'Thank You' message and a video | Video plays automatically with muted sound | Pass |
     |Footer|
-    |Click on Instagram icon in the footer | External link leading to Instagram opens in a new page | Pass |
-    Click on YouTube icon in the footer | External link leading to YouTube opens in a new page | Pass |
-    Click on Facebook icon in the footer | External link leading to Facebook opens in a new page | Pass |
+    |Click on the Instagram icon in the footer | External link leading to Instagram opens in a new page | Pass |
+    Click on the YouTube icon in the footer | External link leading to YouTube opens in a new page | Pass |
+    Click on the Facebook icon in the footer | External link leading to Facebook opens in a new page | Pass |
 
 ### Validator Testing
 
@@ -226,7 +226,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
                             <h3>(...)</iconify-icon></iconify-icon></h3>
                 ```
 
-      - Correction: extra closing tag for the icon at the end of Welcome heading was removed:
+      - Correction: The extra closing tag for the icon at the end of the Welcome heading was removed:
                 ```
                     <h3>(...)</iconify-icon></h3>
                 ```
@@ -239,7 +239,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
             </div>
         ```
 
-    - Correction: ID for unordered list was changed from
+    - Correction: The ID for the unordered list was changed from
                 ```
                     <ul id="services">
                 ```
@@ -255,7 +255,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
                     <div id="services">
                 ```
 
-      - Correction: Since in the Issue 3 the 
+      - Correction: Since in Issue 3 the 
                 ```
                     <ul id="services ">
                 ```
@@ -263,7 +263,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
                 ```
                     <ul id="services-list">
                 ```
-            the Issue 4 got resolved.
+            Issue 4 was resolved.
 
       - __Issue 5:__ Duplicate ID 'why-choose-us'.
   
@@ -273,7 +273,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
         </div>
         ```
 
-      - Correction: ID for unordered list was changed from 
+      - Correction: The ID for the unordered list was changed from 
                 ```
                     <ul id="why-choose-us">
                 ```
@@ -287,7 +287,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
                 ```
                     <div id="why-choose-us">
                 ```
-      - Correction: Since in the Issue 5 the
+      - Correction: Since in Issue 5 the
                 ```
                     <ul id="why-choose-us">
                 ```
@@ -295,25 +295,25 @@ The site could be of interest to anyone who loves Ireland and aerial photography
                 ```
                     <ul id="why-choose-us-list">
                 ```
-            the Issue 6 got resolved.
+            Issue 6 got resolved.
             
       - __Issue 7__ Possible misuse of 'aria-label'.
                 ```
                     <div id="kinsale-image-section" aria-label="An aerial view of Kinsale">
                 ```
                     
-      - Correction: Replace the 'div' element with 'section' to ensure proper use of aria-label for accessability purpose.
+    - Correction: Replace the 'div' element with 'section' to ensure proper use of the aria-label for accessibility purposes.
                 ```
                     <section id="kinsale-image-section" aria-label="An aerial view of Kinsale">
                 ```
     
-      - Post-corrections, the code for the Home page succesfully passed W3C validation.
+      - Post-corrections, the code for the Home page successfully passed W3C validation.
         
         
 
     - __Projects Page__
   
-        When passign the Projects page HTML code through W3C validator, no errors were returned.
+        When passing the Projects page HTML code through the W3C validator, no errors were returned.
         
 
     - __Contact Page__
@@ -323,14 +323,14 @@ The site could be of interest to anyone who loves Ireland and aerial photography
                     <section id="get-in-touch-img" aria-label="Aerial view of Barley Cove in Ireland">
                 ```
 
-        - Correction: Hidden heading was added to the image section:
+        - Correction: A hidden heading was added to the image section:
   
             ```
                 <section id="get-in-touch-img" aria-label="Aerial view of Barley Cove in Ireland">
                 <h2 class="hidden-heading">Aerial view of Barley Cove in Ireland</h2>
             ```
 
-      - The code for the Contact page succesfully passed W3C validation after the introduced correction.
+      - The code for the Contact page successfully passed W3C validation after the introduced correction.
         
                     
     - __Thank You page__
@@ -356,7 +356,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
                         <section id="video">
                     ```
 
-        - Correction: Hidden heading was added to the video section:
+        - Correction: A hidden heading was added to the video section:
             ```
             <section id="video">
             <h2 id=”hidden-heading”>Aerial view of Charles Fort </h2>
@@ -364,20 +364,20 @@ The site could be of interest to anyone who loves Ireland and aerial photography
             </section>
             ```
 
-      - Post-corrections, the code for the Thank You page succesfully passed W3C validation.
+      - Post-corrections, the code for the Thank You page successfully passed W3C validation.
 
 
 - __CSS__
   
     To align with web standards and ensure accessability compliance CSS code of the site was submitted to [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkatepaulauskas.github.io%2Faerial-photography%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). Below is a summary of the issues identified and corresponding corrections made:
 
-  - __Issue 1:__ 64 - header - 'top' is not a 'align-items' value : 'top'
+  - __Issue 1:__ 64 - header - 'top' is not a 'align-items' value: 'top'
     - Correction: 'top' was replaced with 'flex-start' value to 'align-items' to the top using instructions from [W3Schools](https://www.w3schools.com/cssref/css3_pr_align-items.php).
 
-  - __Issue 2:__ 227 - #services-list, #why-choose-us-list - Value Error : font-family 100% is not a font-family value : 100%
+  - __Issue 2:__ 227 - #services-list, #why-choose-us-list - Value Error: font-family 100% is not a font-family value: 100%
     - Correction: 'font-family' was replaced with 'font-size'
 
-  - __Issue 3:__ 438 - #hero-section - left is not a align-items value : left
+  - __Issue 3:__ 438 - #hero-section - left is not a align-items value: left
     - Correction: To align items to the left 'align-items' property was replaced with 'justify content' property and 'flex-start' value was used to keep items to the left" using instructions from [W3Schools](https://www.w3schools.com/cssref/css3_pr_justify-content.php).
 
   - __Issue 4:__ Warning - Imported style sheets are not checked in direct input and file upload modes:
@@ -390,7 +390,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
 
 
 
-- __Accessability__
+- __Accessibility__
 
     To ensure the accessibility requirements are met for the current project, the Lighthouse testing was done for mobile and desktop versions of the site.
 
@@ -426,7 +426,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
 
       - Footer:
   
-        White on green is only used for graphic components in the footer, such as social media icons, therefore there are no issues with this color combination:
+        White on the green is only used for graphic components in the footer, such as social media icons, therefore there are no issues with this color combination:
     ![Contrast checker footer](media/contrast-checker-footer.png)
 
         
@@ -456,7 +456,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
     
     ![Navigation bar without border bottom](media/navigation-bar-mobile-before-with-the-gap.png)
 
-  - In an attempt to fix this issue, a bottom border matching the color of the navigation bar was added, but a small gap still remained:
+  - In an attempt to fix this issue, a bottom border matching the color of the navigation bar was added, but a small gap remained:
                 ```
                     border-bottom: 2px solid #FF8200;
                 ```
@@ -470,7 +470,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
     
     ![Navigation bar with black border bottom](media/navigation-bar-mobile-border-bottom-black.png)
   
-  - It was decided to change the bottom border color to dark-orange instead of the orange of the navigation bar, since the gap persisted with the orange color. The dark-orange color, in contrast to black, maintains the clean and aesthetically pleasing look of the navigation bar. Once the color was changed to dark-orange, the issue with the gap no longer persisted:
+  - It was decided to change the bottom border color to dark orange instead of the orange of the navigation bar since the gap persisted with the orange color. The dark orange color, in contrast to black, maintains the clean and aesthetically pleasing look of the navigation bar. Once the color was changed to dark orange, the issue with the gap no longer persisted:
                 ```
                 border-bottom: 2px solid #E67500;
                 ```
@@ -485,22 +485,22 @@ The site could be of interest to anyone who loves Ireland and aerial photography
 
 - Image preload
 
-    Although site performance has a high score on desktop, it was noticed that the hero image might sometimes take a second to load and home page appears blank. To resolve this, ideally, a blurred image should be loaded immediately. However, since only HTML and CSS are used for this project, implementing such a feature with a blurred image would not be possible. To ensure that the overlaying text on the image is readable and does not blends with the page background when image loads, and to avoid an impression that the page is empty, a background color was added to the hero section. The color was picked form the hero image and partially imitated the blurred effect of the image.
+    Although site performance has a high score on desktop, it was noticed that the hero image might sometimes take a second to load and the home page appears blank. To resolve this, ideally, a blurred image should be loaded immediately. However, since only HTML and CSS are used for this project, implementing such a feature with a blurred image would not be possible. To ensure that the overlaying text on the image is readable and does not blend with the page background when the image loads, and to avoid the impression that the page is empty, a background color was added to the hero section. The color was picked from the hero image and partially imitated the blurred effect of the image.
 
     ![Hero Section Preload view](media/hero-section-preload-view.png)
 
 ## Deployment
 
-  - Current project was deployed to GutHub pages through the following deployment steps:
+  - The current project was deployed to GutHub pages through the following deployment steps:
     1. I navigated to the settings tab in the GitHub repository.
-    2. In the Code and automation section on the left-hand sidebar I selected Pages.
+    2. In the Code and automation section on the left-hand sidebar, I selected Pages.
        - I set Source to 'Deploy from a branch'.
        - Selected main branch in the dropdown.
        - Set the folder to / (root).
        - Clicked Save.
     3. I went back to the Code tab. Waited a few minutes and refreshed my repository.
     4. After that on the right-hand side, I located the Deployments section and clicked on 'github-pages'.
-    5. I clicked on the square with arrow pointing to upper right corner against the last deployment on the right and was able to see my project live.
+    5. I clicked on the square with an arrow pointing to the upper right corner against the last deployment on the right and was able to see my project live.
 
     The live link to the site can be found at the following URL: [Aerial Photography](https://katepaulauskas.github.io/aerial-photography/index.html)
 
@@ -508,16 +508,16 @@ The site could be of interest to anyone who loves Ireland and aerial photography
 
 ### Content
   - The text for the home page was generated using [Chat GPT](https://chat.openai.com/).
-  - To select the fonts for the site, font pairing service was used: [Font Joy](https://fontjoy.com/).
+  - To select the fonts for the site, a font pairing service was used: [Font Joy](https://fontjoy.com/).
   - Paired font families were downloaded from [Google Fonts](https://fonts.google.com/).
   - Site colors accessibility was checked using [Adobe Color Accessibility Tool](<https://color.adobe.com/>).
   - Icons displayed in the footer and animated icons displayed on the Home and Projects pages were taken from [Iconify](https://iconify.design).
   - Irish flag color codes were taken from [FlagColorCodes.com](https://www.flagcolorcodes.com/ireland).
   - Vertical dividers between menu items on larger screens were added using instructions from [Stack Overflow](https://stackoverflow.com/questions/1936661/vertical-dividers-on-horizontal-ul-menu).
   - To create hidden headings the instruction from [W3Schools](https://www.w3schools.com/accessibility/accessibility_heading_levels.php) was used.
-  - Form submissions were attempted to be displayed through PHP form handling using instructions from [W3Schools](<https://www.w3schools.com/php/php_forms.asp>), however eventually the setup was not used due to the project backend limitation.
+  - Form submissions were attempted to be displayed through PHP form handling using instructions from [W3Schools](<https://www.w3schools.com/php/php_forms.asp>), however, eventually the setup was not used due to the project's backend limitation.
   - To allow text wrapping when a site visitor types in the text box 'Add your message' on the 'Contact' page, 'textarea' tag was used following instructions from [W3Schools](https://www.w3schools.com/tags/tag_textarea.asp).
-  - To ensure that the video in the iframe on the 'Thank you' page is muted, autoplayed, muted, loops, has certain quality set and does not display suggested videos the instructions from the folloing resources were used: [Google support](https://support.google.com/youtube/answer/171780), [DevSheet](https://devsheet.com/code-snippet/play-youtube-video-in-loop-html-iframe/), [DEV](https://dev.to/masakudamatsu/a-quick-note-on-embedding-a-youtube-video-in-2021-4h9d).
+- To ensure that the video in the iframe on the 'Thank you' page is muted, autoplay, loops, has a specific quality set, and does not display suggested videos, the instructions from the folloing resources were used: [Google support](https://support.google.com/youtube/answer/171780), [DevSheet](https://devsheet.com/code-snippet/play-youtube-video-in-loop-html-iframe/), [DEV](https://dev.to/masakudamatsu/a-quick-note-on-embedding-a-youtube-video-in-2021-4h9d).
   - To ensure that video aspect ratio is maintained on the 'Thank You' page, the instructions from the following sources were utilised: [CSS-Tricks](https://css-tricks.com/responsive-iframes/) and [Nikita Hlopov Frontend Dev Blog](https://nikitahl.com/css-aspect-ratio) were used.
 
 ### Media
