@@ -413,22 +413,46 @@ The site could be of interest to anyone who loves Ireland and aerial photography
 ### Solved Bugs
 
 - Menu dropdown on mobile
+  - It was noticed, that there is a gap, that appears between the navigation bar and dropdown menu on mobile. The reason for it was that header did not have border bottom set:
 
-    No border bottom
+    ```
+    header {
+    background-color: #FF8200;
+    padding: 0 0;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding-right: 0px;
+    height: 75.4px;
+    margin: 0;
+    }
+    ```
     
-  ![](media/navigation-bar-mobile-before-with-the-gap.png)
-  
-  With orange border bottom
-  
-  ![](media/navigation-bar-mobile-border-bottom-orange.png)
-  
-  With black border-bottom
-  
-  ![](media/navigation-bar-mobile-border-bottom-black.png)
+    ![Navigation bar without border bottom](media/navigation-bar-mobile-before-with-the-gap.png)
 
-  With dark-orange border bottom
+  - In attempt to fix this issue border buttom was added matching the color of the navigayion bar, however the gap still remained: 
+                ```
+                    border-bottom: 2px solid #FF8200;
+                ```
+    
+    ![Navigation bar with orange border bottom](media/navigation-bar-mobile-border-bottom-orange.png)
   
-  ![](media/navigation-bar-mobile-border-bottom-dark-orange.png)
+  - In order to test the issue the color of the border buttom was changed to black and the gap completlly disappeared:
+                ```
+                    border-bottom: 2px solid #000000;
+                ```
+    
+    ![Navigation bar with black border bottom](media/navigation-bar-mobile-border-bottom-black.png)
+  
+  - It was decided to change the border bottom color to dark-orange instead of using the orange color of the havigation bar, since the gap persisted. The dark-orange color on the contrary with black, would allow to maintain clean and pleasing look of the navivation bar. Once the color was changed to dark-orange - the issue with the gap was no longer persisting:
+                ```
+                border-bottom: 2px solid #E67500;
+                ```
+
+    ![Navigation bar with dark-orange border bottom](media/navigation-bar-mobile-border-bottom-dark-orange.png)
 
 ### Shortcomings
 
@@ -438,7 +462,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
 
 - Image preload
 
-    It was noticed that the hero image might sometimes take a second to load and home page appears blank. To resolve this, ideally, a blurred image should be loaded immediately. However, since only HTML and CSS are used for this project, implementing such a feature with a blurred image would not be possible. To ensure that the overlaying text on the image is readable and does not blends with the page background when image loads, and to avoid an impression that the page is empty, a background color was added to the hero section. The color was picked form the hero image and partially imitated the blurred effect of the image.
+    Although site performance has a high score on desktop, it was noticed that the hero image might sometimes take a second to load and home page appears blank. To resolve this, ideally, a blurred image should be loaded immediately. However, since only HTML and CSS are used for this project, implementing such a feature with a blurred image would not be possible. To ensure that the overlaying text on the image is readable and does not blends with the page background when image loads, and to avoid an impression that the page is empty, a background color was added to the hero section. The color was picked form the hero image and partially imitated the blurred effect of the image.
 
     ![Hero Section Preload view](media/hero-section-preload-view.png)
 
