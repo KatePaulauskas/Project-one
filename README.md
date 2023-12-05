@@ -409,6 +409,29 @@ The site could be of interest to anyone who loves Ireland and aerial photography
     - The Lighthouse test returned great results for the desktop version of the site, confirming that the site is fully accessible, has great performance and SEO settings, and uses best practices.
 
     ![Lighthouse test on desktop](media/lighthouse-desktop.png)
+    
+    ##### Site Colors Accessibility
+    
+    Site colors were checked for accessibility to ensure they are color-blind safe using the [Adoby Color accessinility tool](https://color.adobe.com/create/color-accessibility):
+    
+    ![Color blind safe test](media/color-blinnd-safe.png)
+
+    Additionally, site text and icon colors were tested against their backgrounds for contrast using the [Adoby Color Contrast Checker](https://color.adobe.com/create/color-contrast-analyzer).
+    
+      - Header: 
+    ![Contrast checker header](media/contrast-checker-header.png)
+        
+      - Page body:
+    ![Contrast checker page body](media/contrast-checker-page-body.png)
+
+      - Footer:
+  
+        White on green is only used for graphic components in the footer, such as social media icons, therefore there are no issues with this color combination:
+    ![Contrast checker footer](media/contrast-checker-footer.png)
+
+        
+        
+    
   
 ### Solved Bugs
 
@@ -474,12 +497,14 @@ The live link to the site can be found at the following URL: [Aerial Photography
 
 ### Content
   - The text for the home page was generated using [Chat GPT](https://chat.openai.com/)
-- To select the fonts for the site, font pairing service was used: [Font Joy](https://fontjoy.com/)
+  - To select the fonts for the site, font pairing service was used: [Font Joy](https://fontjoy.com/)
   - Paired fonts families were downloaded from [Google Fonts](https://fonts.google.com/)
+  - Site colors were checked with the accessinility tool 
   - Icons displayed in the footer and animated icons displayed on the Home and Projects pages were taken from [Iconify](https://iconify.design)
   - Irish flag color codes were taken from [FlagColorCodes.com](https://www.flagcolorcodes.com/ireland)
+  - 
 
 ### Media
 
-    Personal media files were used for to build the current project.
+    Personal media and video files were used to build the current project.
 
