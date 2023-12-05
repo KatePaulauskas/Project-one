@@ -1,9 +1,9 @@
 # Aerial Photography
-Aerial Photography Aerial Photography is a website that presents a collection of aerial images showcasing Ireland's picturesque vistas. It is dedicated to providing aerial photography services tailored to a variety of sectors, including real estate and tourism, as well as for personal projects.
+Aerial Photography is a website showcasing a portfolio of aerial images featuring stunning views of Irish nature and beauty. The site offers aerial photography services to industries such as real estate and tourism, as well as for personal use.
 
-Visitors to the site are greeted with a captivating image of Ireland that beautifully captures the essence of the Emerald Isle. The website offers information about Aerial Photography and provides insights into the business and services offered. Additionally, users can explore Aerial Photography's social media profiles for more stunning visuals and get in touch with the team for specific inquiries or service requests.
+Site visitors can view mesmerizing images and a video of the Emerald Isle on this site. The homepage greets them with a stunning view of Sheep’s Head. On the homepage, visitors can also check what Aerial Photography offers and learn more about the business by visiting social media links in the footer. The site has two more visible pages. One of them showcases accomplished projects. Another allows getting in touch with the business via a contact form for further inquiries and questions. The site also has a hidden 'Thank You' page, which is displayed upon form submission.
 
-This site is designed for anyone with a passion for Ireland and aerial photography. It is particularly beneficial for businesses in Ireland seeking to enhance their marketing and promotional content with unique and eye-catching imagery or videos. The primary goal of the website is to showcase the beauty of the Irish landscape from an elevated perspective, including hidden gems and offering viewers a fresh look at familiar scenes.
+The site could be of interest to anyone who loves Ireland and aerial photography, as well as local businesses looking to enhance their marketing and promotional materials with unique, high-quality content. The site aims to showcase the hidden gems of the Irish landscape and the beauty of well-known places from a new perspective to attract more customers.
 
 ![Responsive Mockup](media/aerial-photography-responsive-mockup.png)
 
@@ -11,119 +11,139 @@ This site is designed for anyone with a passion for Ireland and aerial photograp
 
 - __Navigation Bar__
 
-  - Fully responsive and prominently positioned at the top of all site pages, the navigation bar is an essential feature of the site. It neatly presents the Aerial Photography logo on the left, with links to the three main site pages - Home, Projects, and Contact - aligned on the right.
+  - The fully responsive navigation bar is displayed on all site pages. It includes the Aerial Photography logo on the left and links to three site pages aligned to the right: Home, Projects, and Contact.
   
-  - The navigation bar maintains a consistent design across all pages, facilitating effortless navigation for users throughout the site. The logo, representing Aerial Photography, features a drone image above its abbreviation, divided by a horizontal line that evokes the horizon. This design effectively hints at the site's focus on aerial photography.
+  - The design of the navigation bar remains consistent across all pages for seamless navigation. It allows site visitors to navigate through the site pages with ease, eliminating the need to use the back button in their browser.
   
-  - The navigation bar is distinguished by its orange background which was inspired by the Irish flag color palette, to reflect the Irish theme of the site. The black text of the logo and menu icon on mobile as well as links on desktop create a striking contrast against the orange backdrop, making the navigation bar visually prominent. This design choice enhances the aesthetic appeal and clearly separates the navigation bar from the rest of the content on the site pages.
+  - The logo in the navigation bar features an image of a drone above the Aerial Photography abbreviation, divided by a horizontal line representing the horizon. This design provides a clear visual hint about the site's focus on aerial photography.
 
-  - The navigation bar enables visitors to easily move through the site without the need to use the back button in their browser. Its intuitive layout and eye-catching design ensure that users can navigate the site with ease and efficiency.
+  - The navigation bar has an orange background, inspired by the Irish flag's color palette, to represent the Irish theme. The Logo and Menu links are in black, creating a stark contrast with the orange background. The navigation bar stands out on the site, looking like a separate section, clearly delineated from the rest of the page.
 
 
     ##### Mobile
-    - On mobile devices, a hamburger icon serves as the menu representation. When clicked, the menu items expand below the header, highlighting the current page in bold and underlined ensuring easy navigation. The menu items are displayed against an orange background, matching with the header's color and extend across the width of the screen forming cohesive block with the header.
+    - On mobile devices, the menu is represented by a hamburger icon. Clicking on it opens a dropdown menu right below the header, displaying the current page in bold and underlined for smooth navigation. The menu items are on an orange background, taking the width of the screen and forming one block with the header.
 
-    - Once a page is selected, the menu items retract, allowing full access to the page content. The menu items can be accessed again at any time through the menu hamburger icon. This design optimizes the limited space available on mobile devices while preserving a clear and intuitive user experience.
+    - The mobile navigation bar is intuitive and easy to use. When a site page is selected, the menu dropdown disappears, providing a clean look and ensuring wise use of the limited mobile screen space. To access the menu items again, the site visitor needs to click on the menu icon.
 
-    ![Navigation Bar on mobile](media/navigation-bar-mobile.png)
+        ![Navigation Bar on mobile](media/navigation-bar-mobile.png)
     
     ##### Larger screens
-    - Vertical dividers between the menu items on tablets and larger screens enhance visual presentation and distinctly separate each page link.
-    - The current page is alway in bold and underlined to cleate clear impression of page the site visotor is currently on.
-    - On laptops and desktops, underlining appears on menu items on hover to visually deomstrate the page a site visitor is about to click on.
-  
+    - On larger screens, menu items are aligned to the right. Vertical dividers between menu items enhance visual presentation and separate page links.
+    - The current page is always in bold and underlined, providing a clear indication of the page the visitor is currently on.
+    - On laptops and desktops, menu items underline on hover, visually indicating the page a visitor is about to select.
+
     ![Navigation Bar on desktop](media/navigation-bar.png)
 
 - __Home Page image__
 
     ##### Mobile
 
-    - On mobile devices, the homepage's image is vertically oriented, featuring a stunning view of the rocky shores of Sheep's Head Peninsula from above, presented in hight quality and resolution.
-  
-    - This arrangement ensures a captivating impression on mobile visitors, taking into consideration the vertical size of the screens and the importance of showcasing stunning imagery Aerial Photography is able to offer.
-  
-    - The overlaid text is positioned at the top of the image, displayed in black with a white shadow and a semi-transparent background to create excellent contrast with the blue sky, ensuring optimal readability and aesthetic appeal.
-
-    - The site name is presented in the "Architects Daughter" font, characterised by its handcrafted and distinctive style, reflecting creativity and freedom. In contrast, the tagline is set in "Antic Slab," a font with a structured and robust appearance, effectively conveying a powerful and engaging message.
+    - On mobile, the homepage features a vertically oriented image. It showcases a high-quality, high-resolution view of Sheep's Head Peninsula from above.
+    - This orientation is chosen to impress visitors, considering the vertical nature of mobile screens and the importance of displaying stunning imagery.
+    - The overlaying text at the top of the image is in black with white shadow and a semi-transparent background, ensuring strong contrast with the blue sky.
+    - The site name is in the artistic "Architects Daughter" font, reflecting creativity and freedom, while the tagline is in the clear, structured "Antic Slab" font, conveying a powerful message.
 
     ![Home Page image on mobile](media/home-page-image-mobile.png)
 
     ##### Larger screens
     
-    - On larger screens, a breathtaking view of the rugged shores of Sheep's Head Peninsula in Ireland is presented from a different perspective in a panoramic format. It serves as the homepage's above-the-fold image with the purpose of immediately capturing the attention of site visitors. This high-quality, high-resolution image, optimized for larger screens, provides visitors with an introduction to the quality of imagery offered, showcasing the unique perspective that Aerial Photography delivers.
+    - The above-fold image on the homepage on larger screens showcases a breathtaking, panoramic view of Sheep’s Head Peninsula. It immediately captures the attention of site visitors with its high quality and resolution, positively reflecting on the quality and perspective of photographs offered by Aerial Photography.
 
-    - The overlay text is displayed in white, strategically positioned in the bottom left corner to ensure a striking contrast with the deep blue waters and thoughtfully placed so as not to obstruct the view of the rocky shoreline.
+    - The overlaying text on larger screens is in white, positioned in the bottom left corner to ensure great contrast with the dark blue waters and smart placement that doesn't obstruct the view of the rocky shore.
 
     ![Home Page image on desktop](media/home-page-image.png)
 
-   
-
 - __Business Info__
-  - Business Info: part 1
-    - Mobile
+  
+    The business information on the homepage is divided into three parts.
+    
+    - Business Info. Part 1.
+  
+        The first part includes a welcome message and brief information about Aerial Photography and its experience. Each section has headings, and animated icons draw attention to the information.
+    
+    ##### Mobile
+    
+    - On mobile, all three sections are stacked vertically.
 
         ![Business Info part 1 on mobile](media/business-info-part-1-mobile.png)
         
-    - Larger Screens
+    ##### Larger Screens
+    - On larger screens, the sections adapt to screen size, stretching across the screen width.
 
         ![Business Info part 1 on larger screens](media/business-info-part-1.png)
         
-  - Business Info: quote and image
-    - Mobile
+  - Business Info. Part 2. Quote and image.
+  
+    The second part features a quote by W.B. Yeats about Irish nature and a picture of Kinsale Harbor, adding creativity and a visual break to the page.
+    
+    ##### Mobile
+    
+    - On mobile, a vertical image of boats in Kinsale Harbor is displayed.
 
         ![Business Info: quote and image on mobile](media/quote-and-image-2-mobile.png)
 
-    - Larger Screens
-
+    ##### Larger Screens
+    
+    - On larger screens, a panoramic view of Kinsale Harbor showcases the potential of the aerial photography services offered.
+        
         ![Business Info: quote and image on screens](media/quote-and-image-2.png)
 
-  - Business Info: part 2
+  - Business Info. Part 3.
 
-    - Mobile
+    The third section provides more details on the business, highlighting services, the company's promise, and reasons to choose Aerial Photography.
+    
+    ##### Mobile
 
-        ![Business Info part 2 on mobile](media/business-info-part-2-mobile.png)
-
-    - Tablet
+    - On mobile, this section is in a vertical format.
         
-        ![Business Info part 2 on mobile](media/business-info-part-2-tablet.png)
+    ![Business Info part 2 on mobile](media/business-info-part-2-mobile.png)
 
-    - Desktop
+    ##### Tablet
+        
+    - On tablets, it adapts to two columns on top and one at the bottom.
+        
+    ![Business Info part 2 on mobile](media/business-info-part-2-tablet.png)
 
-        ![Business Info part 1 on larger screens](media/business-info-part-2.png)
+    ##### Desktop
+        
+    - On desktop devices, it forms three columns, effectively using screen space.
+
+    ![Business Info part 1 on larger screens](media/business-info-part-2.png)
 
 - __Footer__
+  
+    - The site's footer is green, inspired by the Irish flag, and appears on all site pages. It contains social media links that open in a new browser page when clicked. 
+    - Social media links in the footer encourage site visitors to click on them and subscribe to the Aerial Photography social media channels to stay in touch and get updates on the new content released.
 
-![Footer](media/footer.png)
+    ![Footer](media/footer.png)
 
 - __Projects Page__
   
-  - Mobile
+    - This page showcases accomplished projects with six high-quality, high-resolution aerial images from various locations in Ireland, demonstrating the quality and unique perspective of the photographer.
+  
+    ##### Mobile
+    
+    - On mobile, images are vertically oriented to fully utilize screen width.
   
     ![Projects Page on mobile](media/portfolio-page-mobile.png)
 
-  - Larger Screens
+    ##### Larger Screens
+    
+    - On larger screens, images are displayed in two columns.
 
     ![Projects Page on larger screens](media/portfolio-page.png)
   
 - __Contact Page__
-  
-  - Mobile
-  
-    ![Contact Page on mobile](media/contact-page-mobile.png)
 
-  - Larger Screens
+  - The Contact page offers a way to get in touch with the business. It includes a contact form with full validation and an adaptable image of Barley Cove beach.
 
-    ![Contact Page on larger screens](media/contact-page.png)
+    ![Contact Page](media/contact-page.png)
 
 - __Thank you Page__
   
-  - Mobile
-  
-    ![Thank You Page on mobile](media/thank-you-page-mobile.png)
+  - After form submission, visitors are directed to the Thank You page, featuring a message of gratitude and an autoplay video of an aerial view of Charles Fort in Kinsale. The video's sound is disabled by default but can be enabled manually.
 
-  - Larger Screens
-
-    ![Thank You Page on larger screens](media/thank-you-page.png)
+    ![Thank You Page](media/thank-you-page.png)
 
 ### Features Left to Implement
 
