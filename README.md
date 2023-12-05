@@ -496,15 +496,20 @@ The live link to the site can be found at the following URL: [Aerial Photography
 ## Credits
 
 ### Content
-  - The text for the home page was generated using [Chat GPT](https://chat.openai.com/)
-  - To select the fonts for the site, font pairing service was used: [Font Joy](https://fontjoy.com/)
-  - Paired fonts families were downloaded from [Google Fonts](https://fonts.google.com/)
-  - Site colors were checked with the accessinility tool 
-  - Icons displayed in the footer and animated icons displayed on the Home and Projects pages were taken from [Iconify](https://iconify.design)
-  - Irish flag color codes were taken from [FlagColorCodes.com](https://www.flagcolorcodes.com/ireland)
-  - 
+  - The text for the home page was generated using [Chat GPT](https://chat.openai.com/).
+  - To select the fonts for the site, font pairing service was used: [Font Joy](https://fontjoy.com/).
+  - Paired font families were downloaded from [Google Fonts](https://fonts.google.com/).
+  - Site colors accessibility was checked using [Adobe Color Accessibility Tool](<https://color.adobe.com/>).
+  - Icons displayed in the footer and animated icons displayed on the Home and Projects pages were taken from [Iconify](https://iconify.design).
+  - Irish flag color codes were taken from [FlagColorCodes.com](https://www.flagcolorcodes.com/ireland).
+  - Vertical dividers between menu items on larger screens were added using instructions from [Stack Overflow](https://stackoverflow.com/questions/1936661/vertical-dividers-on-horizontal-ul-menu).
+  - To reate hidden headings the instruction from [W3Schools](https: //www.w3schools.com/accessibility/accessibility_heading_levels.php) was used.
+  - Form submissions were attempted to be displayed through PHP form handling using instructions from [W3Schools](<https://www.w3schools.com/php/php_forms.asp>), however eventually the setup was not used due to the project backend limitation.
+  - To allow text wrapping when a site visitor types in the text box 'Add your message' on the 'Contact' page, <textarea> tag was used following instructions from [W3Schools](https://www.w3schools.com/tags/tag_textarea.asp).
+  - To ensure that the video in the iframe on the 'Thank you' page is muted, autoplayed, muted, loops, has certain quality set and does not display suggested videos the instructions from the folloing resources were used: [Google support](https://support.google.com/youtube/answer/171780), [DevSheet](https://devsheet.com/code-snippet/play-youtube-video-in-loop-html-iframe/), [DEV](https://dev.to/masakudamatsu/a-quick-note-on-embedding-a-youtube-video-in-2021-4h9d).
+  - To ensure that video aspect ratio is maintained on the 'Thank You' page, the instructions from the following sources were utilised: [CSS-Tricks](https://css-tricks.com/responsive-iframes/) and [Nikita Hlopov Frontend Dev Blog](<<https://nikitahl.com/css-aspect-ratio)> were used.
 
 ### Media
 
-    Personal media and video files were used to build the current project.
-
+  - Personal media and video files were used to build the current project.
+  - [Wix Logo Maker](https://www.wix.com/logo/maker) was used to design Aerial Photography project logo.
