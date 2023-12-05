@@ -173,36 +173,36 @@ The site could be of interest to anyone who loves Ireland and aerial photography
   
     ![13-inch screen in Microsoft Edge browser without bookmarks bar](media/13-inch-no-bookmarks-bar.png)
 
-  - 13-inch screen in Chrome browser with bookmarks bar present
+- 13-inch screen in Chrome browser with bookmarks bar present
   
-    - ![13-inch screen in Chrome browser with bookmarks bar](media/13-inch-with-bookmarks-bar.png)
+    ![13-inch screen in Chrome browser with bookmarks bar](media/13-inch-with-bookmarks-bar.png)
 
 - Navigation bar and menu items are intuitive and easy to use and understand.
 
 - The contact form is fully functional with every field requiring entries, including the email field only accepting email. The submit button is fully functional.
 
+    ### Testing site features and behaviour
 
-
-| Action/Feature          | Expected behavior       | Status         |
-|-------------------|-------------------------|----------------|
-|Enter site URL: <https://katepaulauskas.github.io/aerial-photography/> | Home page loads | Pass |
-|Menu |
-|Click on Projects page link | Projects page loads | Pass |
-|Click on Contact page link | Contact page loads | Pass |
-|Click on Home page link | Home page loads | Pass |
-|Click on the hamburger menu icon on the mobile site | Menu items expand below the header in a dropdown | Pass |
-|Hamburger menu icon on tablets and larger screens | Hidden | Pass |
-|Form |
-|Click submit | Please fill out this field appears in the 'Name' field | Pass |
-|Fill out only the name, click submit | Please fill out this field appears in the 'Email' field | Pass |
-|Fill out name and email fields without @ sign, click submit | Please include an @ in the email address appears in the 'Email' field | Pass |
-|Fill out name and email address with @ sign, click submit | Please fill out this field appears in the 'Add your message' field | Pass |
-|Fill out name, email address with @ sign and add message, click submit | Sive visitor is taken to the 'Thank you' page | Pass |
-|Thank you page displayed upon successful submission of the form with 'Thank You' message and a video | Video plays automatically with muted sound | Pass |
-|Footer|
-|Click on Instagram icon in the footer | External link leading to Instagram opens in a new page | Pass |
-Click on YouTube icon in the footer | External link leading to YouTube opens in a new page | Pass |
-Click on Facebook icon in the footer | External link leading to Facebook opens in a new page | Pass |
+    | Action/Feature          | Expected behavior       | Status         |
+    |-------------------|-------------------------|----------------|
+    |Enter site URL: <https://katepaulauskas.github.io/aerial-photography/> | Home page loads | Pass |
+    |Menu |
+    |Click on Projects page link | Projects page loads | Pass |
+    |Click on Contact page link | Contact page loads | Pass |
+    |Click on Home page link | Home page loads | Pass |
+    |Click on the hamburger menu icon on the mobile site | Menu items expand below the header in a dropdown | Pass |
+    |Hamburger menu icon on tablets and larger screens | Hidden | Pass |
+    |Form |
+    |Click submit | Please fill out this field appears in the 'Name' field | Pass |
+    |Fill out only the name, click submit | Please fill out this field appears in the 'Email' field | Pass |
+    |Fill out name and email fields without @ sign, click submit | Please include an @ in the email address appears in the 'Email' field | Pass |
+    |Fill out name and email address with @ sign, click submit | Please fill out this field appears in the 'Add your message' field | Pass |
+    |Fill out name, email address with @ sign and add message, click submit | Sive visitor is taken to the 'Thank you' page | Pass |
+    |Thank you page displayed upon successful submission of the form with 'Thank You' message and a video | Video plays automatically with muted sound | Pass |
+    |Footer|
+    |Click on Instagram icon in the footer | External link leading to Instagram opens in a new page | Pass |
+    Click on YouTube icon in the footer | External link leading to YouTube opens in a new page | Pass |
+    Click on Facebook icon in the footer | External link leading to Facebook opens in a new page | Pass |
 
 ### Validator Testing
 
@@ -392,16 +392,21 @@ Click on Facebook icon in the footer | External link leading to Facebook opens i
 
 - __Accessability__
 
-    To ensure the accessability requirements are met for the site, the lighthouse testing was done for Mobile and desktop versions of the site. 
-    
-  - Mobile 
-    - Initially the test did not refurn high result for site performance on mobile, providign the scroee of 56. 
+    To ensure the accessibility requirements are met for the current project, the Lighthouse testing was done for mobile and desktop versions of the site.
+
+  - Mobile
+
+    - Initially, the test did not return high results for site performance on mobile, providing a score of 56. Whereas accessibility results were 100, which ensures that the fonts and colors chosen for this project are easy to read.
   
     ![Lighthouse test on mobile](media/lighthouse-mobile.png)
-    
-    - After resizing the 
-    
-  - Desktop
+
+    - After resizing the hero image and logo on mobile, as well as converting the logo file to WebP format, the performance indicator was significantly improved.
+
+    ![Lighthouse second test on mobile](media/lighthouse-mobile-test-two.png)
+
+    - Desktop
+
+    - The Lighthouse test returned great results for the desktop version of the site, confirming that the site is fully accessible, has great performance and SEO settings, and uses best practices.
 
     ![Lighthouse test on desktop](media/lighthouse-desktop.png)
   
@@ -426,47 +431,17 @@ Click on Facebook icon in the footer | External link leading to Facebook opens i
   ![](media/navigation-bar-mobile-border-bottom-dark-orange.png)
 
 ### Shortcomings
-To maintain a consistent look and style for the site and ensure an exceptional user experience, the decision was made to avoid redirecting form submissions to the [external link of the Code Institute](https://formdump.codeinstitute.net). Instead, site visitors were supposed to be directed to a hidden page within the site, keeping them engaged on-site and preventing redirection to an external link. Initially, the strategy was to display form submissions by following instructions from  [W3Schools](<https://www.w3schools.com/php/php_forms.asp>), leading to the creation of two files: process-form.php and display-results.php, with the appropriate code implemented. However, it was later discovered that backend support is not available for this project. Consequently, these files were removed and replaced with a 'Thank You' page, which displays a message of gratitude, however  does not show the results of the submissions.
 
-- process-form.php
-```
-<?php
-session_start();
+- Form Submission
 
-// Collect form data
-$_SESSION['name'] = $_POST['name'];
-$_SESSION['email'] = $_POST['email-address'];
-$_SESSION['message'] = $_POST['add-your-message'];
+    To keep the consistent look and style of the site as well as exceptional user experience, it was decided not to send form submissions to the external link of the Code Institute. Instead, it was decided to direct site visitors to a hidden page on the site to ensure the site visitors stay on the site and are not directed to an external link. In an attempt to display form submission using instructions from [W3Schools](<https://www.w3schools.com/php/php_forms.asp>) the following files were created: process-form.php and display-results.php and appropriate code was used. However, later on, it was discovered, that backend is not available on this project. Therefore, the created files were deleted and replaced with the ‘Thank You’ page, which includes a thank you message, without a presentation of the results submitted.
 
-</body>
-</html>
-// Redirect to the results page
-header('Location: display-results.php');
-exit();
-?>
-```
+- Image preload
 
-- display-results.php
-```
-<?php
-session_start();
+    It was noticed that the hero image might sometimes take a second to load and home page appears blank. To resolve this, ideally, a blurred image should be loaded immediately. However, since only HTML and CSS are used for this project, implementing such a feature with a blurred image would not be possible. To ensure that the overlaying text on the image is readable and does not blends with the page background when image loads, and to avoid an impression that the page is empty, a background color was added to the hero section. The color was picked form the hero image and partially imitated the blurred effect of the image.
 
-// Check if the session variables are set
-if (isset($_SESSION['name']) && isset($_SESSION['email']) && isset($_SESSION['message'])) {
-    // Display the results
-    echo "<h1>Form Submission Results</h1>";
-    echo "<p>Name: " . htmlspecialchars($_SESSION['name']) . "</p>";
-    echo "<p>Email: " . htmlspecialchars($_SESSION['email']) . "</p>";
-    echo "<p>Message: " . htmlspecialchars($_SESSION['message']) . "</p>";
+    ![Hero Section Preload view](media/hero-section-preload-view.png)
 
-    // Clear the session data
-    session_unset();
-    session_destroy();
-} else {
-    echo "<p>No form data received.</p>";
-}
-?>
-```
 ## Deployment
 
 The live link to the site can be found at the following URL: [Aerial Photography]
