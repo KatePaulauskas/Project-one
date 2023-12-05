@@ -5,7 +5,7 @@ Site visitors can view mesmerizing images and a video of the Emerald Isle on thi
 
 The site could be of interest to anyone who loves Ireland and aerial photography, as well as local businesses looking to enhance their marketing and promotional materials with unique, high-quality content. The site aims to showcase the hidden gems of the Irish landscape and the beauty of well-known places from a new perspective to attract more customers.
 
-![Responsive Mockup](media/aerial-photography-responsive-mockup.png)
+![Responsive Mockup](assets/media/aerial-photography-responsive-mockup.png)
 
 ## Features
 
@@ -26,7 +26,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
 
     - The mobile navigation bar was created to be intuitive and easy to use. When a site page is selected, the menu dropdown disappears from the page. This provides a clean look on mobile without obstructing the page and ensures that the limited space of the mobile screen is used wisely. To access the menu items again, the site visitor needs to click on the menu icon.
 
-        ![Navigation Bar on mobile](media/navigation-bar-mobile.png)
+        ![Navigation Bar on mobile](assets/media/navigation-bar-mobile.png)
     
     ##### Larger screens
     
@@ -34,7 +34,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
     - The current page is always displayed in bold and underlined to create a clear indication of the page the site visitor is currently on. 
     - On laptops and desktops underlining appears on menu items on hover to visually demonstrate the page a site visitor is about to click on.
 
-    ![Navigation Bar on desktop](media/navigation-bar.png)
+    ![Navigation Bar on desktop](assets/media/navigation-bar.png)
 
 - __Home Page image__
 
@@ -46,7 +46,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
     - The site name is written in the artistic "Architects Daughter" front reflecting creativity and freedom and providing engagement. The tagline is written in clear and structured "Antic Slab" font and allows to communicate a powerful message. 
 
 
-    ![Home Page image on mobile](media/home-page-image-mobile.png)
+    ![Home Page image on mobile](assets/media/home-page-image-mobile.png)
 
     ##### Larger screens
     
@@ -55,7 +55,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
   - The overlaying text on the larder screen is in white. It is positioned in the bottom left corner ensuring great contrast with the dark blue waters and wisely positioned not to obstruct the view of the rocky shore.
 
 
-    ![Home Page image on desktop](media/home-page-image.png)
+    ![Home Page image on desktop](assets/media/home-page-image.png)
 
 - __Business Info__
   
@@ -69,13 +69,13 @@ The site could be of interest to anyone who loves Ireland and aerial photography
     
     - On mobile, all three sections are stacked vertically to effectively use the mobile screen space.
 
-        ![Business Info part 1 on mobile](media/business-info-part-1-mobile.png)
+        ![Business Info part 1 on mobile](assets/media/business-info-part-1-mobile.png)
         
     ##### Larger Screens
     
     - On larger screens, the sections are also positioned vertically, they adapt to screen size, stretching across the screen width.
 
-        ![Business Info part 1 on larger screens](media/business-info-part-1.png)
+        ![Business Info part 1 on larger screens](assets/media/business-info-part-1.png)
         
   - Business Info. Part 2. Quote and image.
   
@@ -85,13 +85,13 @@ The site could be of interest to anyone who loves Ireland and aerial photography
     
     - On mobile, a vertical image of boats in Kinsale Harbor is displayed.
 
-        ![Business Info: quote and image on mobile](media/quote-and-image-2-mobile.png)
+        ![Business Info: quote and image on mobile](assets/media/quote-and-image-2-mobile.png)
 
     ##### Larger Screens
     
     - On larger screens, a different image is used to make full use of the screen size. A panoramic view of Kinsale Harbor is displayed to showcase the potential of the aerial photography services offered.
         
-        ![Business Info: quote and image on screens](media/quote-and-image-2.png)
+        ![Business Info: quote and image on screens](assets/media/quote-and-image-2.png)
 
   - Business Info. Part 3.
 
@@ -101,19 +101,19 @@ The site could be of interest to anyone who loves Ireland and aerial photography
 
     - On mobile, this section is presented in a vertical format.
         
-    ![Business Info part 3 on mobile](media/business-info-part-3-mobile.png)
+    ![Business Info part 3 on mobile](assets/media/business-info-part-3-mobile.png)
 
     ##### Tablet
         
     - On the tablets, it becomes responsive and adapts to the screen size forming two columns on top and one at the bottom.
         
-    ![Business Info part 3 on tablet](media/business-info-part-3-tablet.png)
+    ![Business Info part 3 on tablet](assets/media/business-info-part-3-tablet.png)
 
     ##### Desktop
         
     - On desktop devices the section adapts further and forms three columns, effectively using screen space.
 
-    ![Business Info part 4 on larger screens](media/business-info-part-3.png)
+    ![Business Info part 4 on larger screens](assets/media/business-info-part-3.png)
 
 - __Footer__
   
@@ -122,7 +122,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
     - Social media links are presented in the footer and when clicked, they take site visitors to Instagram, YouTube, or Facebook pages respectively in a new browser tab.
     - Social media links in the footer encourage site visitors to click on them and subscribe to the Aerial Photography social media channels to stay in touch and get updates on the new content released.
 
-    ![Footer](media/footer.png)
+    ![Footer](assets/media/footer.png)
 
 - __Projects Page__
   
@@ -132,25 +132,25 @@ The site could be of interest to anyone who loves Ireland and aerial photography
     
     - On mobile, images are vertically oriented to fully utilize screen width, which allows to demonstrate the quality and beauty of the images.
   
-    ![Projects Page on mobile](media/portfolio-page-mobile.png)
+    ![Projects Page on mobile](assets/media/portfolio-page-mobile.png)
 
     ##### Larger Screens
     
     - On larger screens, images are displayed in two columns.
 
-    ![Projects Page on larger screens](media/portfolio-page.png)
+    ![Projects Page on larger screens](assets/media/portfolio-page.png)
   
 - __Contact Page__
 
   - The Contact page offers an opportunity to get in touch with the business for inquiries and additional questions. It includes a contact form with full validation and an image of Barley Cove Beach, which adapts its width to the size of the screen.
 
-    ![Contact Page](media/contact-page.png)
+    ![Contact Page](assets/media/contact-page.png)
 
 - __Thank you Page__
   
   - Upon submitting the contact form, site visitors are taken to the 'Thank You' page. On the page they are presented with a message, thanking them for the submission, as well as a video of an aerial view of Charles Fort in Kinsale which is set to autoplay. The sound on the video is automatically disabled and can be manually enabled by the site visitor.
 
-    ![Thank You Page](media/thank-you-page.png)
+    ![Thank You Page](assets/media/thank-you-page.png)
 
 ### Features Left to Implement
 
@@ -171,11 +171,11 @@ The site could be of interest to anyone who loves Ireland and aerial photography
 
   - 13-inch screen in Microsoft browser without bookmarks bar
   
-    ![13-inch screen in Microsoft Edge browser without bookmarks bar](media/13-inch-no-bookmarks-bar.png)
+    ![13-inch screen in Microsoft Edge browser without bookmarks bar](assets/media/13-inch-no-bookmarks-bar.png)
 
 - 13-inch screen in Chrome browser with bookmarks bar present
   
-    ![13-inch screen in Chrome browser with bookmarks bar](media/13-inch-with-bookmarks-bar.png)
+    ![13-inch screen in Chrome browser with bookmarks bar](assets/media/13-inch-with-bookmarks-bar.png)
 
 - The navigation bar and menu items are intuitive and easy to use and understand.
 
@@ -398,36 +398,36 @@ The site could be of interest to anyone who loves Ireland and aerial photography
 
     - Initially, the test did not return high results for site performance on mobile, providing a score of 56. Whereas accessibility results were 100, which ensures that the fonts and colors chosen for this project are easy to read.
   
-    ![Lighthouse test on mobile](media/lighthouse-mobile.png)
+    ![Lighthouse test on mobile](assets/media/lighthouse-mobile.png)
 
     - After resizing the hero image and logo on mobile, as well as converting the logo file to WebP format, the performance indicator was significantly improved.
 
-    ![Lighthouse second test on mobile](media/lighthouse-mobile-test-two.png)
+    ![Lighthouse second test on mobile](assets/media/lighthouse-mobile-test-two.png)
 
     - Desktop
 
     - The Lighthouse test returned great results for the desktop version of the site, confirming that the site is fully accessible, has great performance and SEO settings, and uses best practices.
 
-    ![Lighthouse test on desktop](media/lighthouse-desktop.png)
+    ![Lighthouse test on desktop](assets/media/lighthouse-desktop.png)
     
     ##### Site Colors Accessibility
     
     Site colors were checked for accessibility to ensure they are color-blind safe using the [Adoby Color accessinility tool](https://color.adobe.com/create/color-accessibility):
     
-    ![Color blind safe test](media/color-blinnd-safe.png)
+    ![Color blind safe test](assets/media/color-blinnd-safe.png)
 
     Additionally, site text and icon colors were tested against their backgrounds for contrast using the [Adoby Color Contrast Checker](https://color.adobe.com/create/color-contrast-analyzer).
     
       - Header: 
-    ![Contrast checker header](media/contrast-checker-header.png)
+    ![Contrast checker header](assets/media/contrast-checker-header.png)
         
       - Page body:
-    ![Contrast checker page body](media/contrast-checker-page-body.png)
+    ![Contrast checker page body](assets/media/contrast-checker-page-body.png)
 
       - Footer:
   
         White on the green is only used for graphic components in the footer, such as social media icons, therefore there are no issues with this color combination:
-    ![Contrast checker footer](media/contrast-checker-footer.png)
+    ![Contrast checker footer](assets/media/contrast-checker-footer.png)
 
         
         
@@ -454,28 +454,28 @@ The site could be of interest to anyone who loves Ireland and aerial photography
     }
     ```
     
-    ![Navigation bar without border bottom](media/navigation-bar-mobile-before-with-the-gap.png)
+    ![Navigation bar without border bottom](assets/media/navigation-bar-mobile-before-with-the-gap.png)
 
   - In an attempt to fix this issue, a bottom border matching the color of the navigation bar was added, but a small gap remained:
                 ```
                     border-bottom: 2px solid #FF8200;
                 ```
     
-    ![Navigation bar with orange border bottom](media/navigation-bar-mobile-border-bottom-orange.png)
+    ![Navigation bar with orange border bottom](assets/media/navigation-bar-mobile-border-bottom-orange.png)
   
   - In order to test the issue the color of the bottom border was changed to black, and the gap completely disappeared:
                 ```
                     border-bottom: 2px solid #000000;
                 ```
     
-    ![Navigation bar with black border bottom](media/navigation-bar-mobile-border-bottom-black.png)
+    ![Navigation bar with black border bottom](assets/media/navigation-bar-mobile-border-bottom-black.png)
   
   - It was decided to change the bottom border color to dark orange instead of the orange of the navigation bar since the gap persisted with the orange color. The dark orange color, in contrast to black, maintains the clean and aesthetically pleasing look of the navigation bar. Once the color was changed to dark orange, the issue with the gap no longer persisted:
                 ```
                 border-bottom: 2px solid #E67500;
                 ```
 
-    ![Navigation bar with dark-orange border bottom](media/navigation-bar-mobile-border-bottom-dark-orange.png)
+    ![Navigation bar with dark-orange border bottom](assets/media/navigation-bar-mobile-border-bottom-dark-orange.png)
 
 ### Shortcomings
 
@@ -487,7 +487,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
 
     Although site performance has a high score on desktop, it was noticed that the hero image might sometimes take a second to load and the home page appears blank. To resolve this, ideally, a blurred image should be loaded immediately. However, since only HTML and CSS are used for this project, implementing such a feature with a blurred image would not be possible. To ensure that the overlaying text on the image is readable and does not blend with the page background when the image loads, and to avoid the impression that the page is empty, a background color was added to the hero section. The color was picked from the hero image and partially imitated the blurred effect of the image.
 
-    ![Hero Section Preload view](media/hero-section-preload-view.png)
+    ![Hero Section Preload view](assets/media/hero-section-preload-view.png)
 
 ## Deployment
 
