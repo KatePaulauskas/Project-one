@@ -413,7 +413,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
 ### Solved Bugs
 
 - Menu dropdown on mobile
-  - It was noticed, that there is a gap, that appears between the navigation bar and dropdown menu on mobile. The reason for it was that header did not have border bottom set:
+  - It was noticed that there is a gap appearing between the navigation bar and the dropdown menu on mobile. This was because the header did not have a bottom border set:
 
     ```
     header {
@@ -433,21 +433,21 @@ The site could be of interest to anyone who loves Ireland and aerial photography
     
     ![Navigation bar without border bottom](media/navigation-bar-mobile-before-with-the-gap.png)
 
-  - In attempt to fix this issue border buttom was added matching the color of the navigayion bar, however the gap still remained: 
+  - In an attempt to fix this issue, a bottom border matching the color of the navigation bar was added, but a small gap still remained:
                 ```
                     border-bottom: 2px solid #FF8200;
                 ```
     
     ![Navigation bar with orange border bottom](media/navigation-bar-mobile-border-bottom-orange.png)
   
-  - In order to test the issue the color of the border buttom was changed to black and the gap completlly disappeared:
+  - In order to test the issue the color of the bottom border was changed to black, and the gap completely disappeared:
                 ```
                     border-bottom: 2px solid #000000;
                 ```
     
     ![Navigation bar with black border bottom](media/navigation-bar-mobile-border-bottom-black.png)
   
-  - It was decided to change the border bottom color to dark-orange instead of using the orange color of the havigation bar, since the gap persisted. The dark-orange color on the contrary with black, would allow to maintain clean and pleasing look of the navivation bar. Once the color was changed to dark-orange - the issue with the gap was no longer persisting:
+  - It was decided to change the bottom border color to dark-orange instead of the orange of the navigation bar, since the gap persisted with the orange color. The dark-orange color, in contrast to black, maintains the clean and aesthetically pleasing look of the navigation bar. Once the color was changed to dark-orange, the issue with the gap no longer persisted:
                 ```
                 border-bottom: 2px solid #E67500;
                 ```
@@ -473,7 +473,13 @@ The live link to the site can be found at the following URL: [Aerial Photography
 ## Credits
 
 ### Content
+  - The text for the home page was generated using [Chat GPT](https://chat.openai.com/)
+- To select the fonts for the site, font pairing service was used: [Font Joy](https://fontjoy.com/)
+  - Paired fonts families were downloaded from [Google Fonts](https://fonts.google.com/)
+  - Icons displayed in the footer and animated icons displayed on the Home and Projects pages were taken from [Iconify](https://iconify.design)
+  - Irish flag color codes were taken from [FlagColorCodes.com](https://www.flagcolorcodes.com/ireland)
 
 ### Media
 
+    Personal media files were used for to build the current project.
 
