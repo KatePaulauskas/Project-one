@@ -1,7 +1,7 @@
 # Aerial Photography
 Aerial Photography is a website showcasing a portfolio of aerial images featuring stunning views of Irish nature and beauty. The site offers aerial photography services to industries such as real estate and tourism, as well as for personal use.
 
-Site visitors can view mesmerizing images and a video of the Emerald Isle on this site. The homepage greets them with a stunning view of Sheep’s Head. On the homepage, visitors can also check what Aerial Photography offers and learn more about the business by visiting social media links in the footer. The site has two more visible pages. One of them showcases accomplished projects. Another allows getting in touch with the business via a contact form for further inquiries and questions. The site also has a hidden 'Thank You' page, which is displayed upon form submission.
+Site visitors can view mesmerizing images and a video of the Emerald Isle on this site. The homepage greets them with a stunning view of Sheep’s Head. On the homepage, visitors can also check what Aerial Photography offers and learn more about the business by visiting social media links in the footer. The site has two more visible pages. One of them showcases accomplished projects. Another allows visitors to get in touch with the business via a contact form for further inquiries and questions. The site also has a hidden 'Thank You' page, which is displayed upon form submission.
 
 The site could be of interest to anyone who loves Ireland and aerial photography, as well as local businesses looking to enhance their marketing and promotional materials with unique, high-quality content. The site aims to showcase the hidden gems of the Irish landscape and the beauty of well-known places from a new perspective to attract more customers.
 
@@ -15,7 +15,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
   
   - The design of the navigation bar remains consistent across all pages for flawless and seamless navigation. It allows site visitors to navigate through the site pages with ease, eliminating the need to use the back button in their browser.
   
-  - The logo in the navigation bar features an image of a drone above the Aerial Photography abbreviation. The abbreviation and the image are divided by a horizontal line representing the horizon. This design of th  logo provides a clear visual hint about the site's focus on aerial photography.
+  - The logo in the navigation bar features an image of a drone above the Aerial Photography abbreviation. The abbreviation and the image are divided by a horizontal line representing the horizon. This design of the logo provides a clear visual hint about the site's focus on aerial photography.
 
   - The navigation bar has an orange background, inspired by the Irish flag's color palette, to represent the Irish theme. The Logo and Menu links are in black, creating a great contrast with the orange background. The navigation bar stands out on the site, looking like a separate section, which stands out from the rest of the page.
 
@@ -101,19 +101,19 @@ The site could be of interest to anyone who loves Ireland and aerial photography
 
     - On mobile, this section is presented in a vertical format.
         
-    ![Business Info part 2 on mobile](media/business-info-part-2-mobile.png)
+    ![Business Info part 3 on mobile](media/business-info-part-3-mobile.png)
 
     ##### Tablet
         
     - On the tablets in becomes responsive, and adapts to the screen size forming two columns on top and one at the bottom.
         
-    ![Business Info part 2 on mobile](media/business-info-part-2-tablet.png)
+    ![Business Info part 3 on tablet](media/business-info-part-3-tablet.png)
 
     ##### Desktop
         
     - On desktop devices the section adapts further and forms three columns, effectively using screen space.
 
-    ![Business Info part 1 on larger screens](media/business-info-part-2.png)
+    ![Business Info part 4 on larger screens](media/business-info-part-3.png)
 
 - __Footer__
   
@@ -156,7 +156,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
 
   - It would be beneficial to further improve the code on the 'Thank You' pafe for larger screens, to ensure that the video fits within the page in such a way that there is no vertical scrolling. This could allow the site visitors to have an easy access to the control panel of the video without the need to scroll down the page to reach the controls.
   
-    #### Potential features to be implmnnted to further develop the project
+    #### Potential features to be implemented to further develop the project
     
   - It could be beneficial to develop a content management system and add login bar for member's area. This feature would enable business owners and photographers to log into the site and upload fresh content on the new and existing projects section directly without the need to go to the back end of the site and edit it.
   
@@ -514,11 +514,11 @@ The site could be of interest to anyone who loves Ireland and aerial photography
   - Icons displayed in the footer and animated icons displayed on the Home and Projects pages were taken from [Iconify](https://iconify.design).
   - Irish flag color codes were taken from [FlagColorCodes.com](https://www.flagcolorcodes.com/ireland).
   - Vertical dividers between menu items on larger screens were added using instructions from [Stack Overflow](https://stackoverflow.com/questions/1936661/vertical-dividers-on-horizontal-ul-menu).
-  - To reate hidden headings the instruction from [W3Schools](https: //www.w3schools.com/accessibility/accessibility_heading_levels.php) was used.
+  - To create hidden headings the instruction from [W3Schools](https://www.w3schools.com/accessibility/accessibility_heading_levels.php) was used.
   - Form submissions were attempted to be displayed through PHP form handling using instructions from [W3Schools](<https://www.w3schools.com/php/php_forms.asp>), however eventually the setup was not used due to the project backend limitation.
-  - To allow text wrapping when a site visitor types in the text box 'Add your message' on the 'Contact' page, <textarea> tag was used following instructions from [W3Schools](https://www.w3schools.com/tags/tag_textarea.asp).
+  - To allow text wrapping when a site visitor types in the text box 'Add your message' on the 'Contact' page, 'textarea' tag was used following instructions from [W3Schools](https://www.w3schools.com/tags/tag_textarea.asp).
   - To ensure that the video in the iframe on the 'Thank you' page is muted, autoplayed, muted, loops, has certain quality set and does not display suggested videos the instructions from the folloing resources were used: [Google support](https://support.google.com/youtube/answer/171780), [DevSheet](https://devsheet.com/code-snippet/play-youtube-video-in-loop-html-iframe/), [DEV](https://dev.to/masakudamatsu/a-quick-note-on-embedding-a-youtube-video-in-2021-4h9d).
-  - To ensure that video aspect ratio is maintained on the 'Thank You' page, the instructions from the following sources were utilised: [CSS-Tricks](https://css-tricks.com/responsive-iframes/) and [Nikita Hlopov Frontend Dev Blog](<<https://nikitahl.com/css-aspect-ratio)> were used.
+  - To ensure that video aspect ratio is maintained on the 'Thank You' page, the instructions from the following sources were utilised: [CSS-Tricks](https://css-tricks.com/responsive-iframes/) and [Nikita Hlopov Frontend Dev Blog](https://nikitahl.com/css-aspect-ratio) were used.
 
 ### Media
 
