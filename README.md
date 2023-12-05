@@ -491,7 +491,18 @@ The site could be of interest to anyone who loves Ireland and aerial photography
 
 ## Deployment
 
-The live link to the site can be found at the following URL: [Aerial Photography]
+  - Current project was deployed to GutHub pages through the following deployment steps:
+    1. I navigated to the settings tab in the GitHub repository.
+    2. In the Code and automation section on the left-hand sidebar I selected Pages.
+       - I set Source to 'Deploy from a branch'.
+       - Selected main branch in the dropdown.
+       - Set the folder to / (root).
+       - Clicked Save.
+    3. I went back to the Code tab. Waited a few minutes and refreshed my repository.
+    4. After that on the right-hand side, I located the Deployments section and clicked on 'github-pages'.
+    5. I clicked on the square with arrow pointing to upper right corner against the last deployment on the right and was able to see my project live.
+
+    The live link to the site can be found at the following URL: [Aerial Photography](https://katepaulauskas.github.io/aerial-photography/index.html)
 
 ## Credits
 
