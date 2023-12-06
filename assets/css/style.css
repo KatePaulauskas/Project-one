@@ -1,5 +1,5 @@
 /* Import Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Architects+Daughter&family=Duru+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Antic+Slab&family=Architects+Daughter&family=Duru+Sans&display=swap");
 
 /* Asterisk wildcard selector to create a consistent starting point across different browsers and remove white edges on the sides and the top of the page */
 * {
@@ -14,12 +14,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-family: 'Duru Sans', sans-serif;
+    font-family: "Duru Sans", sans-serif;
 }
 
 /* H1 style */
 h1 {
-    font-family: 'Architects Daughter', sans-serif;
+    font-family: "Architects Daughter", sans-serif;
     text-align: center;
     font-size: 150%;
     padding-top: 25px;
@@ -29,7 +29,7 @@ h1 {
 h2,
 h3,
 h4 {
-    font-family: 'Antic Slab', sans-serif;
+    font-family: "Antic Slab", sans-serif;
     text-align: center;
     font-size: 120%;
     padding: 25px 10px;
@@ -54,7 +54,7 @@ p {
 
 /* Header */
 header {
-    background-color: #FF8200;
+    background-color: #ff8200;
     padding: 0 0;
     position: fixed;
     z-index: 99;
@@ -100,7 +100,7 @@ header a {
     position: absolute;
     left: 0;
     z-index: 100;
-    background-color: #FF8200;
+    background-color: #ff8200;
     width: 100%;
     top: 75.4px;
 }
@@ -131,7 +131,7 @@ header a {
 /* Logo style */
 /* Logo text was replaced by logo image */
 #logo {
-    font-family: 'Architects Daughter', sans-serif;
+    font-family: "Architects Daughter", sans-serif;
     text-transform: uppercase;
     color: #000000;
     letter-spacing: 2px;
@@ -142,7 +142,7 @@ header a {
 
 /*Main content */
 main {
-    background-color: #FFF7EF;
+    background-color: #fff7ef;
     color: #232323;
     /* Make the main element to take up any excess space and push footer to the bottom */
     flex: 1 0 auto;
@@ -206,10 +206,10 @@ main {
     font-style: italic;
 }
 
-#quote1 > p {
+#quote1>p {
     text-align: center;
     padding: 10px;
-    font-family: 'Architects Daughter', sans-serif;
+    font-family: "Architects Daughter", sans-serif;
     font-weight: bold;
     font-size: 115%;
 }
@@ -221,7 +221,8 @@ main {
 }
 
 /* Services & Why choose us styles */
-#services-list, #why-choose-us-list {
+#services-list,
+#why-choose-us-list {
     list-style-type: circle;
     padding: 10px 10px 10px 20px;
     font-size: 100%;
@@ -244,7 +245,7 @@ main {
     padding: 10px 10px 0;
 }
 
-.photo-item > p {
+.photo-item>p {
     text-align: center;
 }
 
@@ -265,7 +266,7 @@ main {
 }
 
 /* Add gap under the form name */
-#get-in-touch-form > h1 {
+#get-in-touch-form>h1 {
     padding-bottom: 10px;
 }
 
@@ -284,12 +285,12 @@ main {
 
 /* Style get in touch button */
 .get-in-touch-button {
-    margin-bottom:10px;
+    margin-bottom: 10px;
     border-radius: 3px;
     font-size: 100%;
     padding: 10px;
     color: #000000;
-    background-color: #FF8200;
+    background-color: #ff8200;
     font-weight: bold;
 }
 
@@ -307,9 +308,9 @@ main {
 /* Thank you page */
 #thank-you-page {
     /* Ensure position of items at the top */
-    justify-content: flex-start; 
+    justify-content: flex-start;
     /* Prevent vertical scrolling */
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 /* Style thank you message */
@@ -342,7 +343,7 @@ main {
 
 /*Footer */
 footer {
-    background-color: #009A44;
+    background-color: #009a44;
     padding: 5px 0;
 }
 
@@ -366,19 +367,20 @@ footer {
 
 /* Media query: tablets and larger screens (768px and up) */
 @media screen and (min-width: 768px) {
-    
+
     /* Fonts size */
     h1 {
         font-size: 160%;
     }
-    
+
     h2,
     h3,
     h4 {
         font-size: 130%;
     }
-    
-    p, ul {
+
+    p,
+    ul {
         font-size: 100%;
     }
 
@@ -447,7 +449,8 @@ footer {
         background-color: transparent;
     }
 
-    #home-page-h1, #home-page-tagline {
+    #home-page-h1,
+    #home-page-tagline {
         text-align: left;
         font-size: 170%;
         text-shadow: none;
@@ -458,9 +461,9 @@ footer {
     }
 
     #quote1 .quote-author {
-    text-align: right;
-    font-weight: bold;
-    margin: 0 50px 20px 0;
+        text-align: right;
+        font-weight: bold;
+        margin: 0 50px 20px 0;
     }
 
     /* Home second image */
@@ -472,7 +475,6 @@ footer {
     .business-info-part-2 {
         display: flex;
         flex-wrap: wrap;
-
     }
 
     #services,
@@ -483,11 +485,11 @@ footer {
         margin: 0 0 0 10px;
     }
 
-    #our-promise > p {
-        text-align: justify
+    #our-promise>p {
+        text-align: justify;
     }
 
-    .business-info-part-2 > div {
+    .business-info-part-2>div {
         margin-right: 30px;
         flex-basis: 350px;
         flex-grow: 1;
@@ -496,41 +498,42 @@ footer {
     /* Contact page */
     /* Reduce width of form frame */
     #get-in-touch {
-    margin: 20px 40px;
+        margin: 20px 40px;
     }
 
     /* Reduce width of form input fields */
     .text-input {
-    width: 50%;
+        width: 50%;
     }
 
     /* Style get in touch button on hover */
     .get-in-touch-button:hover {
-    background-color: #009A44;
-    color: #FFF7EF;
+        background-color: #009a44;
+        color: #fff7ef;
     }
 
     /* Style text input on hover */
     .text-input:hover {
-        border-color: #009A44;
+        border-color: #009a44;
     }
 }
 
 /* Media query: larger devices (laptops & desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    
+
     /* Fonts size */
     h1 {
         font-size: 170%;
     }
-    
+
     h2,
     h3,
     h4 {
         font-size: 140%;
     }
-    
-    p, ul {
+
+    p,
+    ul {
         font-size: 110%;
     }
 
@@ -554,26 +557,26 @@ footer {
 
     /* Projects page*/
     .photo-gallery {
-    column-count: 2;
+        column-count: 2;
     }
 
     .photo-item img {
-    height: 380px;
+        height: 380px;
     }
 
     /*Contact page*/
     /* Reduce width of form frame */
     #get-in-touch {
-    margin: 20px 70px;
+        margin: 20px 70px;
     }
 
     /* Reduce width of form input fields */
     .text-input {
-    width: 35%;
+        width: 35%;
     }
-    
+
     #get-in-touch-img {
-    height: 520px;
+        height: 520px;
     }
 }
 
@@ -588,7 +591,7 @@ footer {
 
 /* Media query: larger screens (1400px and up) */
 @media screen and (min-width: 1400px) {
-    
+
     /* Hero section */
     #hero-section {
         height: 700px;
@@ -600,16 +603,16 @@ footer {
 
     /* Projects page*/
     .photo-item img {
-    height: 600px;
+        height: 600px;
     }
 
     /*Contact page*/
     /* Reduce width of form frame */
     #get-in-touch {
-    margin: 20px 120px;
+        margin: 20px 120px;
     }
-    
+
     #get-in-touch-img {
-    height: 650px;
+        height: 650px;
     }
 }
