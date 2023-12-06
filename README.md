@@ -3,7 +3,7 @@ Aerial Photography is a website showcasing a portfolio of aerial images featurin
 
 Site visitors can view mesmerizing images and a video of the Emerald Isle on this site. The homepage greets them with a stunning view of Sheep’s Head. On the homepage, visitors can also check what Aerial Photography offers and learn more about the business by visiting social media links in the footer. The site has two more visible pages. One of them showcases accomplished projects. Another allows visitors to get in touch with the business via a contact form for further inquiries and questions. The site also has a hidden 'Thank You' page, which is displayed upon form submission.
 
-The site could be of interest to anyone who loves Ireland and aerial photography, as well as local businesses looking to enhance their marketing and promotional materials with unique, high-quality content. The site aims to showcase the hidden gems of the Irish landscape and the beauty of well-known places from a new perspective to attract more customers.
+The site's target audience would be anyone who loves Ireland and aerial photography, as well as local businesses looking to enhance their marketing and promotional materials with unique, high-quality content. The site's goal is to showcase the hidden gems of the Irish landscape and the beauty of well-known places from a new perspective and attract more customers to book aerial photography and video services for their business or project.
 
 ![Responsive Mockup](assets/media/aerial-photography-responsive-mockup.png)
 
