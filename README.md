@@ -394,7 +394,7 @@ To ensure the accessibility requirements are met for the current project, the Li
 
 ###### Mobile
 
-   - Initially, the test did not return high results for site performance on mobile, providing a score of 56. Whereas accessibility results were 100, which ensures that the fonts and colors chosen for this project are easy to read.
+   - Initially, the test did not return high results for site performance on mobile, providing a score of 56. Whereas accessibility results were 100, which ensures that the fonts and colors chosen for this project are easy to read and confirms that all non-text elements have alt-text and aria-labels used appropriately for visually impared users. 
   
     ![Lighthouse test on mobile](assets/media/lighthouse-mobile.png)
 
@@ -404,7 +404,7 @@ To ensure the accessibility requirements are met for the current project, the Li
 
 ###### Desktop
 
-   - The Lighthouse test returned great results for the desktop version of the site, confirming that the site is fully accessible, has great performance and SEO settings, and uses best practices.
+- The Lighthouse test returned great results for the desktop version of the site, confirming that the site is fully accessible for visually impared users, has great performance and SEO settings, and uses best practices.
 
     ![Lighthouse test on desktop](assets/media/lighthouse-desktop.png)
     
