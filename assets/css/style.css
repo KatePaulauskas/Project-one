@@ -322,7 +322,7 @@ main {
     margin: auto;
     /* Ensure thank you section takes up all the space above the video secion */
     flex-grow: 1;
-    padding-bottom: 50px;
+    padding: 20px 20px 50px;
 }
 
 /* Style video section, make the video stretch to the full width */
