@@ -93,7 +93,7 @@ The first part includes a welcome message and brief information about Aerial Pho
 
     ![Business Info part 1 on larger screens](assets/media/business-info-part-1.png)
 
-**- Business Info. Part 2. Quote and image**
+**- Business Info. Part 2**
   
 The second part the business information consists of a quote by W.B. Yeats about Irish nature and a picture of Kinsale Harbor. This allows to add creativity and create a pleasant visual break in the page content.
 
@@ -214,7 +214,7 @@ The third part of the business information provides further information on the b
 |Fill out the name and email address with the @ sign, and click submit | 'Please fill out this field' appears in the 'Add your message' field | Pass |
 |Fill out the name, email address with the @ sign and add a message, click submit | Sive visitor is taken to the 'Thank you' page | Pass |
 |Thank you page displayed upon successful submission of the form with a 'Thank You' message and a video | Video plays automatically with muted sound | Pass |
-|Footer|
+|Footer links were tested on all site pages|
 |Click on the Instagram icon in the footer | External link leading to Instagram opens in a new page | Pass |
 |Click on the YouTube icon in the footer | External link leading to YouTube opens in a new page | Pass |
 |Click on the Facebook icon in the footer | External link leading to Facebook opens in a new page | Pass |
