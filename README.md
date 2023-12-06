@@ -9,179 +9,179 @@ The site could be of interest to anyone who loves Ireland and aerial photography
 
 ## Features
 
-- __Navigation Bar__
+### Existing Features
 
-  - The fully responsive navigation bar is displayed on all site pages. It includes the Aerial Photography logo on the left and links to three site pages aligned to the right: Home, Projects, and Contact.
+#### Navigation Bar
+
+ - The fully responsive navigation bar is displayed on all site pages. It includes the Aerial Photography logo on the left and links to three site pages aligned to the right: Home, Projects, and Contact.
   
-  - The design of the navigation bar remains consistent across all pages for flawless and seamless navigation. It allows site visitors to navigate through the site pages with ease, eliminating the need to use the back button in their browser.
+ - The design of the navigation bar remains consistent across all pages for flawless and seamless navigation. It allows site visitors to navigate through the site pages with ease, eliminating the need to use the back button in their browser.
   
-  - The logo in the navigation bar features an image of a drone above the Aerial Photography abbreviation. The abbreviation and the image are divided by a horizontal line representing the horizon. This design of the logo provides a clear visual hint about the site's focus on aerial photography.
+ - The logo in the navigation bar features an image of a drone above the Aerial Photography abbreviation. The abbreviation and the image are divided by a horizontal line representing the horizon. This design of the logo provides a clear visual hint about the site's focus on aerial photography.
 
-  - The navigation bar has an orange background, inspired by the Irish flag's color palette, to represent the Irish theme. The Logo and Menu links are in black, creating a great contrast with the orange background. The navigation bar stands out on the site, looking like a separate section, which stands out from the rest of the page.
+ - The navigation bar has an orange background, inspired by the Irish flag's color palette, to represent the Irish theme. The Logo and Menu links are in black, creating a great contrast with the orange background. The navigation bar stands out on the site, looking like a separate section, which stands out from the rest of the page.
 
 
-    ##### Mobile
+##### Mobile
     
-    - On mobile devices, the menu is represented by a hamburger icon. Clicking on it the menu dropdown opens right below the header, showcasing the current page in bold and underlined to ensure smooth navigation. The menu items are displayed on an orange background taking the width of the screen and creating one block with the header.
+ - On mobile devices, the menu is represented by a hamburger icon. Clicking on it the menu dropdown opens right below the header, showcasing the current page in bold and underlined to ensure smooth navigation. The menu items are displayed on an orange background taking the width of the screen and creating one block with the header.
 
-    - The mobile navigation bar was created to be intuitive and easy to use. When a site page is selected, the menu dropdown disappears from the page. This provides a clean look on mobile without obstructing the page and ensures that the limited space of the mobile screen is used wisely. To access the menu items again, the site visitor needs to click on the menu icon.
+ - The mobile navigation bar was created to be intuitive and easy to use. When a site page is selected, the menu dropdown disappears from the page. This provides a clean look on mobile without obstructing the page and ensures that the limited space of the mobile screen is used wisely. To access the menu items again, the site visitor needs to click on the menu icon.
 
-        ![Navigation Bar on mobile](assets/media/navigation-bar-mobile.png)
+    ![Navigation Bar on mobile](assets/media/navigation-bar-mobile.png)
     
-    ##### Larger screens
-    
-    - On larger screens, menu items are positioned to the right. Vertical dividers are placed between menu items for a better visual presentation and allow to clearly and visually separate page links.
-    - The current page is always displayed in bold and underlined to create a clear indication of the page the site visitor is currently on. 
-    - On laptops and desktops underlining appears on menu items on hover to visually demonstrate the page a site visitor is about to click on.
+##### Larger screens
+   
+ - On larger screens, menu items are positioned to the right. Vertical dividers are placed between menu items for a better visual presentation and allow to clearly and visually separate page links.
+ - The current page is always displayed in bold and underlined to create a clear indication of the page the site visitor is currently on. 
+ - On laptops and desktops underlining appears on menu items on hover to visually demonstrate the page a site visitor is about to click on.
 
     ![Navigation Bar on desktop](assets/media/navigation-bar.png)
 
-- __Home Page image__
+#### Home Page image
 
-    ##### Mobile
+##### Mobile
 
-    - On mobile, the homepage features a vertically oriented image. It showcases a high-quality, high-resolution view of Sheep's Head Peninsula from above.
-    - Vertically oriented image is used to ensure a great impression on the site visitors, taking into consideration the vertical size of mobile screens and the importance of demonstrating stunning imagery. 
-    - The overlaying text is positioned at the top of the image and is in black with white shadow and a semi-transparent background to ensure strong contact with the blue color of the sky. 
-    - The site name is written in the artistic "Architects Daughter" front reflecting creativity and freedom and providing engagement. The tagline is written in clear and structured "Antic Slab" font and allows to communicate a powerful message. 
-
+ - On mobile, the homepage features a vertically oriented image. It showcases a high-quality, high-resolution view of Sheep's Head Peninsula from above.
+ - Vertically oriented image is used to ensure a great impression on the site visitors, taking into consideration the vertical size of mobile screens and the importance of demonstrating stunning imagery. 
+ - The overlaying text is positioned at the top of the image and is in black with white shadow and a semi-transparent background to ensure strong contact with the blue color of the sky. 
+ - The site name is written in the artistic "Architects Daughter" front reflecting creativity and freedom and providing engagement. The tagline is written in clear and structured "Antic Slab" font and allows to communicate a powerful message. 
 
     ![Home Page image on mobile](assets/media/home-page-image-mobile.png)
 
-    ##### Larger screens
+##### Larger screens
     
-    - The above fold image on the home page on larger screens showcases a breathtaking view of the same Sheep’s Head Peninsula but in panoramic format. It quickly grabs the attention of site visitors. The image is of high quality and resolution to give a positive impression to the site visitors on the quality of images and the perspective of the photographs Aerial Photography can offer. 
+ - The above fold image on the home page on larger screens showcases a breathtaking view of the same Sheep’s Head Peninsula but in panoramic format. It quickly grabs the attention of site visitors. The image is of high quality and resolution to give a positive impression to the site visitors on the quality of images and the perspective of the photographs Aerial Photography can offer. 
 
-  - The overlaying text on the larder screen is in white. It is positioned in the bottom left corner ensuring great contrast with the dark blue waters and wisely positioned not to obstruct the view of the rocky shore.
-
+ - The overlaying text on the larder screen is in white. It is positioned in the bottom left corner ensuring great contrast with the dark blue waters and wisely positioned not to obstruct the view of the rocky shore.
 
     ![Home Page image on desktop](assets/media/home-page-image.png)
 
-- __Business Info__
+#### Business Info
   
-    The business information on the homepage is divided into three parts.
+The business information on the homepage is divided into three parts.
     
-    - Business Info. Part 1.
+##### Business Info. Part 1.
   
-        The first part includes a welcome message and brief information about Aerial Photography and its experience. Each section has a heading, and animated icons are used to draw attention to the information.
+The first part includes a welcome message and brief information about Aerial Photography and its experience. Each section has a heading, and animated icons are used to draw attention to the information.
     
-    ##### Mobile
+###### Mobile
     
-    - On mobile, all three sections are stacked vertically to effectively use the mobile screen space.
+ - On mobile, all three sections are stacked vertically to effectively use the mobile screen space.
 
-        ![Business Info part 1 on mobile](assets/media/business-info-part-1-mobile.png)
+   ![Business Info part 1 on mobile](assets/media/business-info-part-1-mobile.png)
         
-    ##### Larger Screens
+###### Larger Screens
     
-    - On larger screens, the sections are also positioned vertically, they adapt to screen size, stretching across the screen width.
+ - On larger screens, the sections are also positioned vertically, they adapt to screen size, stretching across the screen width.
 
-        ![Business Info part 1 on larger screens](assets/media/business-info-part-1.png)
+    ![Business Info part 1 on larger screens](assets/media/business-info-part-1.png)
         
-  - Business Info. Part 2. Quote and image.
+##### Business Info. Part 2. Quote and image.
   
-    The second part the business information consists of a quote by W.B. Yeats about Irish nature and a picture of Kinsale Harbor. This allows to add creativity and create a pleasant visual break in the page content.
-    
-    ##### Mobile
-    
-    - On mobile, a vertical image of boats in Kinsale Harbor is displayed.
+The second part the business information consists of a quote by W.B. Yeats about Irish nature and a picture of Kinsale Harbor. This allows to add creativity and create a pleasant visual break in the page content.
 
-        ![Business Info: quote and image on mobile](assets/media/quote-and-image-2-mobile.png)
+###### Mobile
+ 
+ - On mobile, a vertical image of boats in Kinsale Harbor is displayed.
 
-    ##### Larger Screens
+   ![Business Info: quote and image on mobile](assets/media/quote-and-image-2-mobile.png)
+
+###### Larger Screens
     
-    - On larger screens, a different image is used to make full use of the screen size. A panoramic view of Kinsale Harbor is displayed to showcase the potential of the aerial photography services offered.
+ - On larger screens, a different image is used to make full use of the screen size. A panoramic view of Kinsale Harbor is displayed to showcase the potential of the aerial photography services offered.
         
-        ![Business Info: quote and image on screens](assets/media/quote-and-image-2.png)
+    ![Business Info: quote and image on screens](assets/media/quote-and-image-2.png)
 
-  - Business Info. Part 3.
+##### Business Info. Part 3.
 
-    - The third part of the business information provides further information on the business, providing details on services offered, the company's promise, and reasons for choosing choose Aerial Photography.
+The third part of the business information provides further information on the business, providing details on services offered, the company's promise, and reasons for choosing choose Aerial Photography.
     
-    ##### Mobile
+###### Mobile
 
-    - On mobile, this section is presented in a vertical format.
+ - On mobile, this section is presented in a vertical format.
         
-    ![Business Info part 3 on mobile](assets/media/business-info-part-3-mobile.png)
+   ![Business Info part 3 on mobile](assets/media/business-info-part-3-mobile.png)
 
-    ##### Tablet
+###### Tablet
+ 
+ - On the tablets, it becomes responsive and adapts to the screen size forming two columns on top and one at the bottom.
         
-    - On the tablets, it becomes responsive and adapts to the screen size forming two columns on top and one at the bottom.
+   ![Business Info part 3 on tablet](assets/media/business-info-part-3-tablet.png)
+
+###### Desktop
         
-    ![Business Info part 3 on tablet](assets/media/business-info-part-3-tablet.png)
+ - On desktop devices the section adapts further and forms three columns, effectively using screen space.
 
-    ##### Desktop
-        
-    - On desktop devices the section adapts further and forms three columns, effectively using screen space.
+   ![Business Info part 4 on larger screens](assets/media/business-info-part-3.png)
 
-    ![Business Info part 4 on larger screens](assets/media/business-info-part-3.png)
+#### Footer
 
-- __Footer__
+ - The site’s footer is positioned at the bottom of the page and appears across all site pages. 
+ - The color of the footer was inspired by the Irish flag theme and is in green color.
+ - Social media links are presented in the footer and when clicked, they take site visitors to Instagram, YouTube, or Facebook pages respectively in a new browser tab.
+ - Social media links in the footer encourage site visitors to click on them and subscribe to the Aerial Photography social media channels to stay in touch and get updates on the new content released.
+
+   ![Footer](assets/media/footer.png)
+
+#### Projects Page
   
-    - The site’s footer is positioned at the bottom of the page and appears across all site pages. 
-    - The color of the footer was inspired by the Irish flag theme and is in green color.
-    - Social media links are presented in the footer and when clicked, they take site visitors to Instagram, YouTube, or Facebook pages respectively in a new browser tab.
-    - Social media links in the footer encourage site visitors to click on them and subscribe to the Aerial Photography social media channels to stay in touch and get updates on the new content released.
-
-    ![Footer](assets/media/footer.png)
-
-- __Projects Page__
+ - This page showcases accomplished projects and demonstrates six high-quality, high-resolution aerial images taken in various locations in Ireland, demonstrating the great quality and unique perspective of the photographer.
   
-    - This page showcases accomplished projects and demonstrates six high-quality, high-resolution aerial images taken in various locations in Ireland, demonstrating the great quality and unique perspective of the photographer.
-  
-    ##### Mobile
+##### Mobile
     
-    - On mobile, images are vertically oriented to fully utilize screen width, which allows to demonstrate the quality and beauty of the images.
+ - On mobile, images are vertically oriented to fully utilize screen width, which allows to demonstrate the quality and beauty of the images.
   
-    ![Projects Page on mobile](assets/media/portfolio-page-mobile.png)
+   ![Projects Page on mobile](assets/media/portfolio-page-mobile.png)
 
-    ##### Larger Screens
+##### Larger Screens
     
-    - On larger screens, images are displayed in two columns.
+ - On larger screens, images are displayed in two columns.
 
-    ![Projects Page on larger screens](assets/media/portfolio-page.png)
+   ![Projects Page on larger screens](assets/media/portfolio-page.png)
   
-- __Contact Page__
+#### Contact Page
 
-  - The Contact page offers an opportunity to get in touch with the business for inquiries and additional questions. It includes a contact form with full validation and an image of Barley Cove Beach, which adapts its width to the size of the screen.
+ - The Contact page offers an opportunity to get in touch with the business for inquiries and additional questions. It includes a contact form with full validation and an image of Barley Cove Beach, which adapts its width to the size of the screen.
 
-    ![Contact Page](assets/media/contact-page.png)
+   ![Contact Page](assets/media/contact-page.png)
 
-- __Thank you Page__
+#### Thank you Page
   
-  - Upon submitting the contact form, site visitors are taken to the 'Thank You' page. On the page they are presented with a message, thanking them for the submission, as well as a video of an aerial view of Charles Fort in Kinsale which is set to autoplay. The sound on the video is automatically disabled and can be manually enabled by the site visitor.
+ - Upon submitting the contact form, site visitors are taken to the 'Thank You' page. On the page they are presented with a message, thanking them for the submission, as well as a video of an aerial view of Charles Fort in Kinsale which is set to autoplay. The sound on the video is automatically disabled and can be manually enabled by the site visitor.
 
-    ![Thank You Page](assets/media/thank-you-page.png)
+   ![Thank You Page](assets/media/thank-you-page.png)
 
 ### Features Left to Implement
 
-  - It would be beneficial to further improve the code on the 'Thank You' page for larger screens, to ensure that the video fits within the page in such a way that there is no vertical scrolling. This could allow the site visitors to have easy access to the control panel of the video without the need to scroll down the page to reach the controls.
+ - It would be beneficial to further improve the code on the 'Thank You' page for larger screens, to ensure that the video fits within the page in such a way that there is no vertical scrolling. This could allow the site visitors to have easy access to the control panel of the video without the need to scroll down the page to reach the controls.
   
-    #### Potential features to be implemented to further develop the project
+  #### Potential features to be implemented to further develop the project
     
-  - It could be beneficial to develop a content management system and add a login bar for the member's area. This feature would enable business owners and photographers to log into the site and upload fresh content on the new and existing projects section directly without the need to go to the back end of the site and edit it.
+ - It could be beneficial to develop a content management system and add a login bar for the member's area. This feature would enable business owners and photographers to log into the site and upload fresh content on the new and existing projects section directly without the need to go to the back end of the site and edit it.
   
 
 ## Testing
 
-  - The site was tested in various browsers: Chrome, Microsoft Edge, Firefox, and Brave, and no issues were identified with loading the site or browsing through the site pages.
+ - The site was tested in various browsers: Chrome, Microsoft Edge, Firefox, and Brave, and no issues were identified with loading the site or browsing through the site pages.
   
-  - The project appears responsive and presentable, it performs full functionality on all standard screen sizes using the DevTools device toolbar and when tested through such tools as [BrowserStack Responsive Design Testing](www.browserstack.com/) and [Website Planet Responsive Checker](https://www.websiteplanet.com/webtools/responsive-checker/).
+ - The project appears responsive and presentable, it performs full functionality on all standard screen sizes using the DevTools device toolbar and when tested through such tools as [BrowserStack Responsive Design Testing](www.browserstack.com/) and [Website Planet Responsive Checker](https://www.websiteplanet.com/webtools/responsive-checker/).
   
-  - Upon physically checking the site on multiple devices one issue was identified. When the project is viewed on a 13-inch screen in a browser with a bookmarks bar present, the content is pushed down and the tagline is not readable. This means that a new media query needs to be created to shift the hero text up.
+ - Upon physically checking the site on multiple devices one issue was identified. When the project is viewed on a 13-inch screen in a browser with a bookmarks bar present, the content is pushed down and the tagline is not readable. This means that a new media query needs to be created to shift the hero text up.
 
-  - 13-inch screen in Microsoft browser without bookmarks bar
+ - 13-inch screen in Microsoft browser without bookmarks bar
   
-    ![13-inch screen in Microsoft Edge browser without bookmarks bar](assets/media/13-inch-no-bookmarks-bar.png)
+   ![13-inch screen in Microsoft Edge browser without bookmarks bar](assets/media/13-inch-no-bookmarks-bar.png)
 
-- 13-inch screen in Chrome browser with bookmarks bar present
+ - 13-inch screen in Chrome browser with bookmarks bar present
   
-    ![13-inch screen in Chrome browser with bookmarks bar](assets/media/13-inch-with-bookmarks-bar.png)
+   ![13-inch screen in Chrome browser with bookmarks bar](assets/media/13-inch-with-bookmarks-bar.png)
 
-- The navigation bar and menu items are intuitive and easy to use and understand.
+ - The navigation bar and menu items are intuitive and easy to use and understand.
 
-- The contact form is fully functional with every field requiring entries, including the email field only accepting email. The submit button is fully functional.
+ - The contact form is fully functional with every field requiring entries, including the email field only accepting email. The submit button is fully functional.
 
-    ### Testing site features and behaviour
+### Testing site features and behaviour
 
     | Action/Feature          | Expected behavior       | Status         |
     |-------------------|-------------------------|----------------|
@@ -206,11 +206,11 @@ The site could be of interest to anyone who loves Ireland and aerial photography
 
 ### Validator Testing
 
-- HTML
+#### HTML
 
-    In an attempt to adhere to web standards and accessibility, each page of the site was submitted to [W3C validation testing](<https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkatepaulauskas.github.io%2Faerial-photography%2F>). Below is a summary of the issues identified and corresponding corrections made:
+In an attempt to adhere to web standards and accessibility, each page of the site was submitted to [W3C validation testing](<https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkatepaulauskas.github.io%2Faerial-photography%2F>). Below is a summary of the issues identified and corresponding corrections made:
 
-    - __Home Page__
+   - __Home Page__
   
       - __Issue 1:__ Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
                 ```
@@ -309,8 +309,7 @@ The site could be of interest to anyone who loves Ireland and aerial photography
     
       - Post-corrections, the code for the Home page successfully passed W3C validation.
         
-        
-
+ 
     - __Projects Page__
   
         When passing the Projects page HTML code through the W3C validator, no errors were returned.
@@ -331,8 +330,8 @@ The site could be of interest to anyone who loves Ireland and aerial photography
             ```
 
       - The code for the Contact page successfully passed W3C validation after the introduced correction.
-        
-                    
+       
+                  
     - __Thank You page__
         - __Issue 1:__ The 'frameborder' attribute on the 'iframe' element is obsolete. Use CSS instead.
 
@@ -367,9 +366,9 @@ The site could be of interest to anyone who loves Ireland and aerial photography
       - Post-corrections, the code for the Thank You page successfully passed W3C validation.
 
 
-- __CSS__
+#### CSS
   
-    To align with web standards and ensure accessability compliance CSS code of the site was submitted to [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkatepaulauskas.github.io%2Faerial-photography%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). Below is a summary of the issues identified and corresponding corrections made:
+To align with web standards and ensure accessability compliance CSS code of the site was submitted to [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkatepaulauskas.github.io%2Faerial-photography%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en). Below is a summary of the issues identified and corresponding corrections made:
 
   - __Issue 1:__ 64 - header - 'top' is not a 'align-items' value: 'top'
     - Correction: 'top' was replaced with 'flex-start' value to 'align-items' to the top using instructions from [W3Schools](https://www.w3schools.com/cssref/css3_pr_align-items.php).
@@ -389,50 +388,46 @@ The site could be of interest to anyone who loves Ireland and aerial photography
     - Comment: This is an external stylesheet provided by Google fonts and it is beyond our control to check it
 
 
+#### Accessibility
 
-- __Accessibility__
+To ensure the accessibility requirements are met for the current project, the Lighthouse testing was done for mobile and desktop versions of the site.
 
-    To ensure the accessibility requirements are met for the current project, the Lighthouse testing was done for mobile and desktop versions of the site.
+###### Mobile
 
-  - Mobile
-
-    - Initially, the test did not return high results for site performance on mobile, providing a score of 56. Whereas accessibility results were 100, which ensures that the fonts and colors chosen for this project are easy to read.
+   - Initially, the test did not return high results for site performance on mobile, providing a score of 56. Whereas accessibility results were 100, which ensures that the fonts and colors chosen for this project are easy to read.
   
     ![Lighthouse test on mobile](assets/media/lighthouse-mobile.png)
 
-    - After resizing the hero image and logo on mobile, as well as converting the logo file to WebP format, the performance indicator was significantly improved.
+   - After resizing the hero image and logo on mobile, as well as converting the logo file to WebP format, the performance indicator was significantly improved.
 
     ![Lighthouse second test on mobile](assets/media/lighthouse-mobile-test-two.png)
 
-    - Desktop
+###### Desktop
 
-    - The Lighthouse test returned great results for the desktop version of the site, confirming that the site is fully accessible, has great performance and SEO settings, and uses best practices.
+   - The Lighthouse test returned great results for the desktop version of the site, confirming that the site is fully accessible, has great performance and SEO settings, and uses best practices.
 
     ![Lighthouse test on desktop](assets/media/lighthouse-desktop.png)
     
-    ##### Site Colors Accessibility
+##### Site Colors Accessibility
     
-    Site colors were checked for accessibility to ensure they are color-blind safe using the [Adoby Color accessinility tool](https://color.adobe.com/create/color-accessibility):
+Site colors were checked for accessibility to ensure they are color-blind safe using the [Adoby Color accessinility tool](https://color.adobe.com/create/color-accessibility):
     
-    ![Color blind safe test](assets/media/color-blinnd-safe.png)
+   ![Color blind safe test](assets/media/color-blinnd-safe.png)
 
-    Additionally, site text and icon colors were tested against their backgrounds for contrast using the [Adoby Color Contrast Checker](https://color.adobe.com/create/color-contrast-analyzer).
+Additionally, site text and icon colors were tested against their backgrounds for contrast using the [Adoby Color Contrast Checker](https://color.adobe.com/create/color-contrast-analyzer).
     
-      - Header: 
+ - Header: 
     ![Contrast checker header](assets/media/contrast-checker-header.png)
         
-      - Page body:
+ - Page body:
     ![Contrast checker page body](assets/media/contrast-checker-page-body.png)
 
-      - Footer:
+ - Footer:
   
-        White on the green is only used for graphic components in the footer, such as social media icons, therefore there are no issues with this color combination:
+White on the green is only used for graphic components in the footer, such as social media icons, therefore there are no issues with this color combination:
     ![Contrast checker footer](assets/media/contrast-checker-footer.png)
 
         
-        
-    
-  
 ### Solved Bugs
 
 - Menu dropdown on mobile
