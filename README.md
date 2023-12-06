@@ -148,7 +148,7 @@ The third part of the business information provides further information on the b
 
 #### Thank you Page
   
- - Upon submitting the contact form, site visitors are taken to the 'Thank You' page. On the page they are presented with a message, thanking them for the submission, as well as a video of an aerial view of Charles Fort in Kinsale which is set to autoplay. The sound on the video is automatically disabled and can be manually enabled by the site visitor.
+ - Upon submitting the contact form, site visitors are taken to the 'Thank You' page. On the page they are presented with a message, thanking them for the submission, as well as a video of an aerial view of Charles Fort in Kinsale. The autoplay and sound on the video are automatically disabled and can be manually enabled by the site visitor.
 
    ![Thank You Page](assets/media/thank-you-page.png)
 
@@ -177,7 +177,7 @@ The third part of the business information provides further information on the b
   
    ![13-inch screen in Chrome browser with bookmarks bar](assets/media/13-inch-with-bookmarks-bar.png)
 
- - The navigation bar and menu items are intuitive and easy to use and understand.
+ - The navigation bar and menu items are intuitive and easy to use and understand. During testing a broken link on the 'Thank You' page was identified when clicking on 'Projects' page. The broken link was fixed.
 
  - The contact form is fully functional with every field requiring entries, including the email field only accepting email. The submit button is fully functional.
 
@@ -186,13 +186,13 @@ The third part of the business information provides further information on the b
     | Action/Feature          | Expected behavior       | Status         |
     |-------------------|-------------------------|----------------|
     |Enter site URL: <https://katepaulauskas.github.io/aerial-photography/> | Home page loads | Pass |
-    |Menu |
+    |Menu was tested on all pages of the site on mobile and larger devices|
     |Click on the Projects page link | Projects page loads | Pass |
     |Click on the Contact page link | Contact page loads | Pass |
     |Click on the Home page link | Home page loads | Pass |
     |Click on the hamburger menu icon on the mobile site | Menu items expand below the header in a dropdown | Pass |
     |Hamburger menu icon on tablets and larger screens | Hidden | Pass |
-    |Form |
+    |Form was tested on mobile and larger devices in multiple browsers |
     |Click submit | Please fill out this field appears in the 'Name' field | Pass |
     |Fill out only the name,and click submit | 'Please fill out this field' appears in the 'Email' field | Pass |
     |Fill out the name and email fields without the @ sign, and click submit | 'Please include an @ in the email address' appears in the 'Email' field | Pass |
@@ -510,10 +510,11 @@ White on the green is only used for graphic components in the footer, such as so
   - Irish flag color codes were taken from [FlagColorCodes.com](https://www.flagcolorcodes.com/ireland).
   - Vertical dividers between menu items on larger screens were added using instructions from [Stack Overflow](https://stackoverflow.com/questions/1936661/vertical-dividers-on-horizontal-ul-menu).
   - To create hidden headings the instruction from [W3Schools](https://www.w3schools.com/accessibility/accessibility_heading_levels.php) was used.
-  - Form submissions were attempted to be displayed through PHP form handling using instructions from [W3Schools](<https://www.w3schools.com/php/php_forms.asp>), however, eventually the setup was not used due to the project's backend limitation.
-  - To allow text wrapping when a site visitor types in the text box 'Add your message' on the 'Contact' page, 'textarea' tag was used following instructions from [W3Schools](https://www.w3schools.com/tags/tag_textarea.asp).
-- To ensure that the video in the iframe on the 'Thank you' page is muted, autoplay, loops, has a specific quality set, and does not display suggested videos, the instructions from the folloing resources were used: [Google support](https://support.google.com/youtube/answer/171780), [DevSheet](https://devsheet.com/code-snippet/play-youtube-video-in-loop-html-iframe/), [DEV](https://dev.to/masakudamatsu/a-quick-note-on-embedding-a-youtube-video-in-2021-4h9d).
-  - To ensure that video aspect ratio is maintained on the 'Thank You' page, the instructions from the following sources were utilised: [CSS-Tricks](https://css-tricks.com/responsive-iframes/) and [Nikita Hlopov Frontend Dev Blog](https://nikitahl.com/css-aspect-ratio) were used.
+  - Form submissions were attempted to be displayed through PHP form handling adapting instructions from [W3Schools](<https://www.w3schools.com/php/php_forms.asp>), however, eventually the setup was not used due to the project's backend limitation.
+  - To allow text wrapping when a site visitor types in the text box 'Add your message' on the 'Contact' page, 'textarea' tag was used adapting instructions from [W3Schools](https://www.w3schools.com/tags/tag_textarea.asp).
+- To ensure that the video in the iframe on the 'Thank you' page is muted, not autoplayed, loops whn played, has a specific quality set, and does not display suggested videos, the instructions from the folloing resources were followed: [Google support](https://support.google.com/youtube/answer/171780), [DevSheet](https://devsheet.com/code-snippet/play-youtube-video-in-loop-html-iframe/), [DEV](https://dev.to/masakudamatsu/a-quick-note-on-embedding-a-youtube-video-in-2021-4h9d).
+  - To ensure that video aspect ratio is maintained on the 'Thank You' page, the instructions from the following sources were used and adapted to the current project: [CSS-Tricks](https://css-tricks.com/responsive-iframes/) and [Nikita Hlopov Frontend Dev Blog](https://nikitahl.com/css-aspect-ratio) were used.
+- [Balsamiq Studios software](https://balsamiq.com/wireframes/) was used to create mockup wireframe for the current project.
 
 ### Media
 
