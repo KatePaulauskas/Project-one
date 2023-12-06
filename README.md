@@ -38,7 +38,7 @@ The structure of the Aerial Photography project's website was initially develope
 
 - The navigation bar has an orange background, inspired by the Irish flag's color palette, to represent the Irish theme. The Logo and Menu links are in black, creating a great contrast with the orange background. The navigation bar stands out on the site, looking like a separate section, which stands out from the rest of the page.
 
-##### Mobile
+***- Mobile***
 
 - On mobile devices, the menu is represented by a hamburger icon. Clicking on it the menu dropdown opens right below the header, showcasing the current page in bold and underlined to ensure smooth navigation. The menu items are displayed on an orange background taking the width of the screen and creating one block with the header.
 
@@ -46,7 +46,7 @@ The structure of the Aerial Photography project's website was initially develope
 
     ![Navigation Bar on mobile](assets/media/navigation-bar-mobile.png)
 
-##### Larger screens
+***- Larger screens***
 
 - On larger screens, menu items are positioned to the right. Vertical dividers are placed between menu items for a better visual presentation and allow to clearly and visually separate page links.
 - The current page is always displayed in bold and underlined to create a clear indication of the page the site visitor is currently on.
@@ -56,7 +56,7 @@ The structure of the Aerial Photography project's website was initially develope
 
 #### Home Page image
 
-##### Mobile
+***- Mobile***
 
 - On mobile, the homepage features a vertically oriented image. It showcases a high-quality, high-resolution view of Sheep's Head Peninsula from above.
 - Vertically oriented image is used to ensure a great impression on the site visitors, taking into consideration the vertical size of mobile screens and the importance of demonstrating stunning imagery.
@@ -65,7 +65,7 @@ The structure of the Aerial Photography project's website was initially develope
 
     ![Home Page image on mobile](assets/media/home-page-image-mobile.png)
 
-##### Larger screens
+***- Larger screens***
 
 - The above fold image on the home page on larger screens showcases a breathtaking view of the same Sheep’s Head Peninsula but in panoramic format. It quickly grabs the attention of site visitors. The image is of high quality and resolution to give a positive impression to the site visitors on the quality of images and the perspective of the photographs Aerial Photography can offer.
 
@@ -77,55 +77,55 @@ The structure of the Aerial Photography project's website was initially develope
 
 The business information on the homepage is divided into three parts.
 
-##### Business Info. Part 1
+**- Business Info. Part 1**
   
 The first part includes a welcome message and brief information about Aerial Photography and its experience. Each section has a heading, and animated icons are used to draw attention to the information.
 
-###### Mobile
+***- Mobile***
 
 - On mobile, all three sections are stacked vertically to effectively use the mobile screen space.
 
    ![Business Info part 1 on mobile](assets/media/business-info-part-1-mobile.png)
 
-###### Larger Screens
+***- Larger Screens***
 
 - On larger screens, the sections are also positioned vertically, they adapt to screen size, stretching across the screen width.
 
     ![Business Info part 1 on larger screens](assets/media/business-info-part-1.png)
 
-##### Business Info. Part 2. Quote and image
+**- Business Info. Part 2. Quote and image**
   
 The second part the business information consists of a quote by W.B. Yeats about Irish nature and a picture of Kinsale Harbor. This allows to add creativity and create a pleasant visual break in the page content.
 
-###### Mobile
+***- Mobile***
 
 - On mobile, a vertical image of boats in Kinsale Harbor is displayed.
 
    ![Business Info: quote and image on mobile](assets/media/quote-and-image-2-mobile.png)
 
-###### Larger Screens
+***- Larger Screens***
 
 - On larger screens, a different image is used to make full use of the screen size. A panoramic view of Kinsale Harbor is displayed to showcase the potential of the aerial photography services offered.
 
     ![Business Info: quote and image on screens](assets/media/quote-and-image-2.png)
 
-##### Business Info. Part 3
+**- Business Info. Part 3**
 
 The third part of the business information provides further information on the business, providing details on services offered, the company's promise, and reasons for choosing choose Aerial Photography.
 
-###### Mobile
+***- Mobile***
 
 - On mobile, this section is presented in a vertical format.
 
    ![Business Info part 3 on mobile](assets/media/business-info-part-3-mobile.png)
 
-###### Tablet
+***- Tablet***
 
 - On the tablets, it becomes responsive and adapts to the screen size forming two columns on top and one at the bottom.
 
    ![Business Info part 3 on tablet](assets/media/business-info-part-3-tablet.png)
 
-###### Desktop
+***- Desktop***
 
 - On desktop devices the section adapts further and forms three columns, effectively using screen space.
 
@@ -144,13 +144,13 @@ The third part of the business information provides further information on the b
   
 - This page showcases accomplished projects and demonstrates six high-quality, high-resolution aerial images taken in various locations in Ireland, demonstrating the great quality and unique perspective of the photographer.
   
-##### Mobile
+***- Mobile***
 
 - On mobile, images are vertically oriented to fully utilize screen width, which allows to demonstrate the quality and beauty of the images.
   
    ![Projects Page on mobile](assets/media/portfolio-page-mobile.png)
 
-##### Larger Screens
+***- Larger Screens***
 
 - On larger screens, images are displayed in two columns.
 
@@ -406,7 +406,7 @@ To align with web standards and ensure accessability compliance CSS code of the 
 
 To ensure the accessibility requirements are met for the current project, the Lighthouse testing was done for mobile and desktop versions of the site.
 
-###### Mobile
+***- Mobile***
 
 - Initially, the test did not return high results for site performance on mobile, providing a score of 56. Whereas accessibility results were 100, which ensures that the fonts and colors chosen for this project are easy to read and confirms that all non-text elements have alt-text and aria-labels used appropriately for visually impared users.
   
@@ -416,7 +416,7 @@ To ensure the accessibility requirements are met for the current project, the Li
 
     ![Lighthouse second test on mobile](assets/media/lighthouse-mobile-test-two.png)
 
-###### Desktop
+***- Desktop***
 
 - The Lighthouse test returned great results for the desktop version of the site, confirming that the site is fully accessible for visually impared users, has great performance and SEO settings, and uses best practices.
 
